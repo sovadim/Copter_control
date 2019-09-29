@@ -4,3 +4,4 @@
 # Team:
 
 Vadim https://github.com/sovadim/Copter_control
+Artem https://github.com/orku
