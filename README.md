@@ -11,4 +11,6 @@ Lidiya https://github.com/Lidooo12
 
 Timas https://github.com/Timas99
 
+Rinat https://github.com/khairullin-rinat
+
 Edaaaaaaa
