@@ -1,16 +1,16 @@
 # Copter_control
 
 # Copter hack 2019
-# Team:
+# my team to save the world:
 
-Vadim https://github.com/sovadim
+delaet_vsyu_rabotu https://github.com/sovadim
 
-Artem https://github.com/orku
+budushchij_predatel' https://github.com/orku
 
-Lidiya https://github.com/Lidooo12
+talisman https://github.com/Lidooo12
 
-Timas https://github.com/Timas99
+paren'_kotoryj_pogibnet_pervym https://github.com/Timas99
 
-Rinat https://github.com/khairullin-rinat
+ischezaet_v_nachale_i_poyavlyaetsya_v_konce https://github.com/khairullin-rinat
 
-Edaaaaaaa
+kapitan_isterika(lidoed) https://github.com/jojagovno
