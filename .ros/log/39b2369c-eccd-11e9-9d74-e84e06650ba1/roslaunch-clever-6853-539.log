@@ -1,0 +1,60 @@
+[roslaunch][INFO] 2019-10-12 09:49:39,360: Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2019-10-12 09:49:39,378: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2019-10-12 09:49:39,379: roslaunch starting with args ['roscore', '--core']
+[roslaunch][INFO] 2019-10-12 09:49:39,379: roslaunch env is {'ROS_DISTRO': 'melodic', 'LOGNAME': 'pi', 'USER': 'pi', 'HOME': '/home/pi', 'ROS_HOSTNAME': 'clever-6853.local', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'CMAKE_PREFIX_PATH': '/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/roslaunch-clever-6853-539.log', 'LANG': 'en_GB.UTF-8', 'SHELL': '/bin/bash', 'JOURNAL_STREAM': '8:12925', 'LD_LIBRARY_PATH': '/opt/ros/melodic/lib', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_PYTHON_VERSION': '2', 'INVOCATION_ID': 'd698a089afb14c4ea067b74fa6bae921', 'PYTHONPATH': '/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/opt/ros/melodic/share', 'PWD': '/', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_VERSION': '1'}
+[roslaunch][INFO] 2019-10-12 09:49:39,379: starting in server mode
+[roslaunch.parent][INFO] 2019-10-12 09:49:39,380: starting roslaunch parent run
+[roslaunch][INFO] 2019-10-12 09:49:39,381: loading roscore config file /opt/ros/melodic/etc/ros/roscore.xml
+[roslaunch][INFO] 2019-10-12 09:49:40,849: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.pmon][INFO] 2019-10-12 09:49:40,850: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2019-10-12 09:49:40,850: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2019-10-12 09:49:40,851: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2019-10-12 09:49:40,851: starting parent XML-RPC server
+[roslaunch.server][INFO] 2019-10-12 09:49:40,852: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2019-10-12 09:49:40,852: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2019-10-12 09:49:40,852: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-10-12 09:49:40,853: Started XML-RPC server [http://clever-6853.local:36307/]
+[xmlrpc][INFO] 2019-10-12 09:49:40,854: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2019-10-12 09:49:40,866: started roslaunch server http://clever-6853.local:36307/
+[roslaunch.parent][INFO] 2019-10-12 09:49:40,866: ... parent XML-RPC server started
+[roslaunch][INFO] 2019-10-12 09:49:40,867: master.is_running[http://clever-6853.local:11311/]
+[roslaunch][INFO] 2019-10-12 09:49:40,871: auto-starting new master
+[roslaunch][INFO] 2019-10-12 09:49:40,871: create_master_process: rosmaster, /opt/ros/melodic/share/ros, 11311, 3, None, False
+[roslaunch][INFO] 2019-10-12 09:49:40,872: process[master]: launching with args [['rosmaster', '--core', '-p', '11311', '-w', '3']]
+[roslaunch.pmon][INFO] 2019-10-12 09:49:40,872: ProcessMonitor.register[master]
+[roslaunch.pmon][INFO] 2019-10-12 09:49:40,872: ProcessMonitor.register[master] complete
+[roslaunch][INFO] 2019-10-12 09:49:40,872: process[master]: starting os process
+[roslaunch][INFO] 2019-10-12 09:49:40,873: process[master]: start w/ args [['rosmaster', '--core', '-p', '11311', '-w', '3', '__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/master.log']]
+[roslaunch][INFO] 2019-10-12 09:49:40,873: process[master]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:49:40,883: process[master]: started with pid [642]
+[roslaunch][INFO] 2019-10-12 09:49:40,883: master.is_running[http://clever-6853.local:11311/]
+[roslaunch][INFO] 2019-10-12 09:49:40,985: master.is_running[http://clever-6853.local:11311/]
+[roslaunch][INFO] 2019-10-12 09:49:41,086: master.is_running[http://clever-6853.local:11311/]
+[roslaunch][INFO] 2019-10-12 09:49:41,188: master.is_running[http://clever-6853.local:11311/]
+[roslaunch][INFO] 2019-10-12 09:49:41,289: master.is_running[http://clever-6853.local:11311/]
+[roslaunch][INFO] 2019-10-12 09:49:41,390: master.is_running[http://clever-6853.local:11311/]
+[roslaunch][INFO] 2019-10-12 09:49:41,394: master.is_running[http://clever-6853.local:11311/]
+[roslaunch][INFO] 2019-10-12 09:49:41,397: ROS_MASTER_URI=http://clever-6853.local:11311/
+[roslaunch][INFO] 2019-10-12 09:49:41,399: setting /run_id to 39b2369c-eccd-11e9-9d74-e84e06650ba1
+[roslaunch][INFO] 2019-10-12 09:49:41,402: setting /roslaunch/uris/host_clever_6853_local__36307' to http://clever-6853.local:36307/
+[roslaunch][INFO] 2019-10-12 09:49:41,407: ... preparing to launch node of type [rosout/rosout]
+[roslaunch][INFO] 2019-10-12 09:49:41,407: create_node_process: package[rosout] type[rosout] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://clever-6853.local:11311/]
+[roslaunch][INFO] 2019-10-12 09:49:41,407: process[rosout-1]: env[{'ROS_DISTRO': 'melodic', 'LOGNAME': 'pi', 'USER': 'pi', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_HOSTNAME': 'clever-6853.local', 'HOME': '/home/pi', 'CMAKE_PREFIX_PATH': '/opt/ros/melodic', 'LD_LIBRARY_PATH': '/opt/ros/melodic/lib', 'LANG': 'en_GB.UTF-8', 'SHELL': '/bin/bash', 'JOURNAL_STREAM': '8:12925', 'ROS_LOG_FILENAME': '/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/roslaunch-clever-6853-539.log', 'ROS_MASTER_URI': 'http://clever-6853.local:11311/', 'ROS_PYTHON_VERSION': '2', 'INVOCATION_ID': 'd698a089afb14c4ea067b74fa6bae921', 'PYTHONPATH': '/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/opt/ros/melodic/share', 'PWD': '/', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2019-10-12 09:49:41,441: process[rosout-1]: args[[u'/opt/ros/melodic/lib/rosout/rosout', u'__name:=rosout']]
+[roslaunch][INFO] 2019-10-12 09:49:41,441: ... created process [rosout-1]
+[roslaunch.pmon][INFO] 2019-10-12 09:49:41,442: ProcessMonitor.register[rosout-1]
+[roslaunch.pmon][INFO] 2019-10-12 09:49:41,442: ProcessMonitor.register[rosout-1] complete
+[roslaunch][INFO] 2019-10-12 09:49:41,442: ... registered process [rosout-1]
+[roslaunch][INFO] 2019-10-12 09:49:41,442: process[rosout-1]: starting os process
+[roslaunch][INFO] 2019-10-12 09:49:41,443: process[rosout-1]: start w/ args [[u'/opt/ros/melodic/lib/rosout/rosout', u'__name:=rosout', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/rosout-1.log']]
+[roslaunch][INFO] 2019-10-12 09:49:41,443: process[rosout-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:49:41,456: process[rosout-1]: started with pid [653]
+[roslaunch][INFO] 2019-10-12 09:49:41,456: ... successfully launched [rosout-1]
+[roslaunch][INFO] 2019-10-12 09:49:41,457: load_parameters starting ...
+[roslaunch][INFO] 2019-10-12 09:49:41,465: ... load_parameters complete
+[roslaunch][INFO] 2019-10-12 09:49:41,466: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2019-10-12 09:49:41,466: ... launch_nodes complete
+[roslaunch.pmon][INFO] 2019-10-12 09:49:41,466: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon -1244769184)>
+[roslaunch.parent][INFO] 2019-10-12 09:49:41,467: ... roslaunch parent running, waiting for process exit
+[roslaunch][INFO] 2019-10-12 09:49:41,467: spin

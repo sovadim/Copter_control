@@ -1,0 +1,14 @@
+[rosmaster.main][INFO] 2019-10-12 10:35:10,164: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2019-10-12 10:35:10,164: Starting ROS Master Node
+[xmlrpc][INFO] 2019-10-12 10:35:10,166: XML-RPC server binding to 0.0.0.0:11311
+[rosmaster.master][INFO] 2019-10-12 10:35:10,167: Master initialized: port[11311], uri[http://clever-6853.local:11311/]
+[xmlrpc][INFO] 2019-10-12 10:35:10,167: Started XML-RPC server [http://clever-6853.local:11311/]
+[xmlrpc][INFO] 2019-10-12 10:35:10,168: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2019-10-12 10:35:10,215: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2019-10-12 10:35:10,217: +PARAM [/roslaunch/uris/host_clever_6853_local__34381] by /roslaunch
+[rosmaster.master][INFO] 2019-10-12 10:35:10,276: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2019-10-12 10:35:10,276: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2019-10-12 10:35:10,547: +SERVICE [/rosout/get_loggers] /rosout http://clever-6853.local:44609/
+[rosmaster.master][INFO] 2019-10-12 10:35:10,548: +SERVICE [/rosout/set_logger_level] /rosout http://clever-6853.local:44609/
+[rosmaster.master][INFO] 2019-10-12 10:35:10,552: +PUB [/rosout_agg] /rosout http://clever-6853.local:44609/
+[rosmaster.master][INFO] 2019-10-12 10:35:10,557: +SUB [/rosout] /rosout http://clever-6853.local:44609/

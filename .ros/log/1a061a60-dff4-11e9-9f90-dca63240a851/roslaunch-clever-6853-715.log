@@ -1,0 +1,333 @@
+[roslaunch][INFO] 2019-09-26 01:25:13,762: roslaunch starting with args ['/opt/ros/melodic/bin/roslaunch', 'clever', 'clever.launch', '--wait', '--screen', '--skip-log-check']
+[roslaunch][INFO] 2019-09-26 01:25:13,763: roslaunch env is {'ROS_DISTRO': 'melodic', 'LOGNAME': 'pi', 'USER': 'pi', 'HOME': '/home/pi', 'ROS_HOSTNAME': 'clever-6853.local', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'CMAKE_PREFIX_PATH': '/home/pi/catkin_ws/devel:/opt/ros/melodic', 'LD_LIBRARY_PATH': '/home/pi/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'LANG': 'en_GB.UTF-8', 'SHELL': '/bin/bash', 'JOURNAL_STREAM': '8:15024', 'SHLVL': '0', 'ROS_LOG_FILENAME': '/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/roslaunch-clever-6853-715.log', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_PYTHON_VERSION': '2', 'INVOCATION_ID': 'ff6142eab05446e78888096f8e5ba36a', 'PYTHONPATH': '/home/pi/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/pi/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/pi/catkin_ws/src:/opt/ros/melodic/share', 'LD_PRELOAD': '/usr/lib/arm-linux-gnueabihf/coreutils/libstdbuf.so', '_STDBUF_O': 'L', 'PWD': '/', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_VERSION': '1'}
+[roslaunch][INFO] 2019-09-26 01:25:13,763: starting in server mode
+[roslaunch.parent][INFO] 2019-09-26 01:25:13,764: starting roslaunch parent run
+[roslaunch][INFO] 2019-09-26 01:25:13,764: loading roscore config file /opt/ros/melodic/etc/ros/roscore.xml
+[roslaunch][INFO] 2019-09-26 01:25:15,016: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.config][INFO] 2019-09-26 01:25:15,017: loading config file /home/pi/catkin_ws/src/clever/clever/launch/clever.launch
+[roslaunch][INFO] 2019-09-26 01:25:15,271: Added node of type [mavros/mavros_node] in namespace [/]
+[roslaunch][INFO] 2019-09-26 01:25:15,275: Added node of type [tf2_ros/static_transform_publisher] in namespace [/]
+[roslaunch][INFO] 2019-09-26 01:25:15,278: Added node of type [mavros_extras/visualization] in namespace [/]
+[roslaunch][INFO] 2019-09-26 01:25:15,280: Added node of type [web_video_server/web_video_server] in namespace [/]
+[roslaunch][INFO] 2019-09-26 01:25:15,282: Added node of type [nodelet/nodelet] in namespace [/]
+[roslaunch][INFO] 2019-09-26 01:25:15,283: Added node of type [tf2_ros/static_transform_publisher] in namespace [/]
+[roslaunch][INFO] 2019-09-26 01:25:15,285: Added node of type [clever/simple_offboard] in namespace [/]
+[roslaunch][INFO] 2019-09-26 01:25:15,289: Added node of type [tf2_ros/static_transform_publisher] in namespace [/]
+[roslaunch][INFO] 2019-09-26 01:25:15,292: Added node of type [nodelet/nodelet] in namespace [/]
+[roslaunch][INFO] 2019-09-26 01:25:15,292: Added node of type [clever/camera_markers] in namespace [/main_camera/]
+[roslaunch][INFO] 2019-09-26 01:25:15,305: Added node of type [rosbridge_server/rosbridge_websocket] in namespace [/]
+[roslaunch][INFO] 2019-09-26 01:25:15,308: Added node of type [rosapi/rosapi_node] in namespace [/]
+[roslaunch][INFO] 2019-09-26 01:25:15,310: Added node of type [tf2_web_republisher/tf2_web_republisher] in namespace [/]
+[roslaunch][INFO] 2019-09-26 01:25:15,312: Added node of type [clever/rc] in namespace [/]
+[roslaunch][INFO] 2019-09-26 01:25:15,312: ... selected machine [] for node of type [mavros/mavros_node]
+[roslaunch][INFO] 2019-09-26 01:25:15,312: ... selected machine [] for node of type [tf2_ros/static_transform_publisher]
+[roslaunch][INFO] 2019-09-26 01:25:15,312: ... selected machine [] for node of type [mavros_extras/visualization]
+[roslaunch][INFO] 2019-09-26 01:25:15,313: ... selected machine [] for node of type [web_video_server/web_video_server]
+[roslaunch][INFO] 2019-09-26 01:25:15,313: ... selected machine [] for node of type [nodelet/nodelet]
+[roslaunch][INFO] 2019-09-26 01:25:15,313: ... selected machine [] for node of type [tf2_ros/static_transform_publisher]
+[roslaunch][INFO] 2019-09-26 01:25:15,313: ... selected machine [] for node of type [clever/simple_offboard]
+[roslaunch][INFO] 2019-09-26 01:25:15,313: ... selected machine [] for node of type [tf2_ros/static_transform_publisher]
+[roslaunch][INFO] 2019-09-26 01:25:15,314: ... selected machine [] for node of type [nodelet/nodelet]
+[roslaunch][INFO] 2019-09-26 01:25:15,314: ... selected machine [] for node of type [clever/camera_markers]
+[roslaunch][INFO] 2019-09-26 01:25:15,314: ... selected machine [] for node of type [rosbridge_server/rosbridge_websocket]
+[roslaunch][INFO] 2019-09-26 01:25:15,314: ... selected machine [] for node of type [rosapi/rosapi_node]
+[roslaunch][INFO] 2019-09-26 01:25:15,314: ... selected machine [] for node of type [tf2_web_republisher/tf2_web_republisher]
+[roslaunch][INFO] 2019-09-26 01:25:15,315: ... selected machine [] for node of type [clever/rc]
+[roslaunch.pmon][INFO] 2019-09-26 01:25:15,317: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2019-09-26 01:25:15,317: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2019-09-26 01:25:15,318: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2019-09-26 01:25:15,318: starting parent XML-RPC server
+[roslaunch.server][INFO] 2019-09-26 01:25:15,318: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2019-09-26 01:25:15,319: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2019-09-26 01:25:15,319: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-09-26 01:25:15,320: Started XML-RPC server [http://clever-6853.local:43887/]
+[xmlrpc][INFO] 2019-09-26 01:25:15,321: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2019-09-26 01:25:15,332: started roslaunch server http://clever-6853.local:43887/
+[roslaunch.parent][INFO] 2019-09-26 01:25:15,332: ... parent XML-RPC server started
+[roslaunch][INFO] 2019-09-26 01:25:15,337: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2019-09-26 01:25:15,342: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2019-09-26 01:25:15,345: ROS_MASTER_URI=http://localhost:11311
+[roslaunch][INFO] 2019-09-26 01:25:15,351: setting /roslaunch/uris/host_clever_6853_local__43887' to http://clever-6853.local:43887/
+[roslaunch][INFO] 2019-09-26 01:25:15,355: load_parameters starting ...
+[roslaunch][INFO] 2019-09-26 01:25:15,455: ... load_parameters complete
+[roslaunch][INFO] 2019-09-26 01:25:15,456: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2019-09-26 01:25:15,458: ... preparing to launch node of type [mavros/mavros_node]
+[roslaunch][INFO] 2019-09-26 01:25:15,459: create_node_process: package[mavros] type[mavros_node] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2019-09-26 01:25:15,459: process[mavros-1]: env[{u'ROSCONSOLE_FORMAT': u'[${severity}] [${time}]: ${logger}: ${message}', 'ROS_DISTRO': 'melodic', 'LOGNAME': 'pi', 'USER': 'pi', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_HOSTNAME': 'clever-6853.local', 'HOME': '/home/pi', 'CMAKE_PREFIX_PATH': '/home/pi/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/roslaunch-clever-6853-715.log', 'LANG': 'en_GB.UTF-8', 'SHELL': '/bin/bash', 'JOURNAL_STREAM': '8:15024', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/home/pi/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_PYTHON_VERSION': '2', 'INVOCATION_ID': 'ff6142eab05446e78888096f8e5ba36a', 'PYTHONPATH': '/home/pi/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/pi/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/pi/catkin_ws/src:/opt/ros/melodic/share', 'LD_PRELOAD': '/usr/lib/arm-linux-gnueabihf/coreutils/libstdbuf.so', '_STDBUF_O': 'L', 'PWD': '/', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2019-09-26 01:25:15,635: process[mavros-1]: args[[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros']]
+[roslaunch][INFO] 2019-09-26 01:25:15,635: ... created process [mavros-1]
+[roslaunch.pmon][INFO] 2019-09-26 01:25:15,636: ProcessMonitor.register[mavros-1]
+[roslaunch.pmon][INFO] 2019-09-26 01:25:15,636: ProcessMonitor.register[mavros-1] complete
+[roslaunch][INFO] 2019-09-26 01:25:15,636: ... registered process [mavros-1]
+[roslaunch][INFO] 2019-09-26 01:25:15,636: process[mavros-1]: starting os process
+[roslaunch][INFO] 2019-09-26 01:25:15,636: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/mavros-1.log']]
+[roslaunch][INFO] 2019-09-26 01:25:15,637: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-09-26 01:25:15,649: process[mavros-1]: started with pid [838]
+[roslaunch][INFO] 2019-09-26 01:25:15,649: ... successfully launched [mavros-1]
+[roslaunch][INFO] 2019-09-26 01:25:15,650: ... preparing to launch node of type [tf2_ros/static_transform_publisher]
+[roslaunch][INFO] 2019-09-26 01:25:15,650: create_node_process: package[tf2_ros] type[static_transform_publisher] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2019-09-26 01:25:15,651: process[rangefinder_frame-2]: env[{u'ROSCONSOLE_FORMAT': u'[${severity}] [${time}]: ${logger}: ${message}', 'ROS_DISTRO': 'melodic', 'LOGNAME': 'pi', 'USER': 'pi', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_HOSTNAME': 'clever-6853.local', 'HOME': '/home/pi', 'CMAKE_PREFIX_PATH': '/home/pi/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/roslaunch-clever-6853-715.log', 'LANG': 'en_GB.UTF-8', 'SHELL': '/bin/bash', 'JOURNAL_STREAM': '8:15024', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/home/pi/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_PYTHON_VERSION': '2', 'INVOCATION_ID': 'ff6142eab05446e78888096f8e5ba36a', 'PYTHONPATH': '/home/pi/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/pi/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/pi/catkin_ws/src:/opt/ros/melodic/share', 'LD_PRELOAD': '/usr/lib/arm-linux-gnueabihf/coreutils/libstdbuf.so', '_STDBUF_O': 'L', 'PWD': '/', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2019-09-26 01:25:15,658: process[rangefinder_frame-2]: args[[u'/opt/ros/melodic/lib/tf2_ros/static_transform_publisher', '0', '0', '-0.05', '0', '1.5707963268', '0', 'base_link', 'rangefinder', u'__name:=rangefinder_frame']]
+[roslaunch][INFO] 2019-09-26 01:25:15,659: ... created process [rangefinder_frame-2]
+[roslaunch.pmon][INFO] 2019-09-26 01:25:15,659: ProcessMonitor.register[rangefinder_frame-2]
+[roslaunch.pmon][INFO] 2019-09-26 01:25:15,659: ProcessMonitor.register[rangefinder_frame-2] complete
+[roslaunch][INFO] 2019-09-26 01:25:15,660: ... registered process [rangefinder_frame-2]
+[roslaunch][INFO] 2019-09-26 01:25:15,660: process[rangefinder_frame-2]: starting os process
+[roslaunch][INFO] 2019-09-26 01:25:15,660: process[rangefinder_frame-2]: start w/ args [[u'/opt/ros/melodic/lib/tf2_ros/static_transform_publisher', '0', '0', '-0.05', '0', '1.5707963268', '0', 'base_link', 'rangefinder', u'__name:=rangefinder_frame', u'__log:=/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/rangefinder_frame-2.log']]
+[roslaunch][INFO] 2019-09-26 01:25:15,661: process[rangefinder_frame-2]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-09-26 01:25:15,671: process[rangefinder_frame-2]: started with pid [839]
+[roslaunch][INFO] 2019-09-26 01:25:15,672: ... successfully launched [rangefinder_frame-2]
+[roslaunch][INFO] 2019-09-26 01:25:15,672: ... preparing to launch node of type [mavros_extras/visualization]
+[roslaunch][INFO] 2019-09-26 01:25:15,672: create_node_process: package[mavros_extras] type[visualization] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2019-09-26 01:25:15,673: process[visualization-3]: env[{u'ROSCONSOLE_FORMAT': u'[${severity}] [${time}]: ${logger}: ${message}', 'ROS_DISTRO': 'melodic', 'LOGNAME': 'pi', 'USER': 'pi', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_HOSTNAME': 'clever-6853.local', 'HOME': '/home/pi', 'CMAKE_PREFIX_PATH': '/home/pi/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/roslaunch-clever-6853-715.log', 'LANG': 'en_GB.UTF-8', 'SHELL': '/bin/bash', 'JOURNAL_STREAM': '8:15024', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/home/pi/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_PYTHON_VERSION': '2', 'INVOCATION_ID': 'ff6142eab05446e78888096f8e5ba36a', 'PYTHONPATH': '/home/pi/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/pi/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/pi/catkin_ws/src:/opt/ros/melodic/share', 'LD_PRELOAD': '/usr/lib/arm-linux-gnueabihf/coreutils/libstdbuf.so', '_STDBUF_O': 'L', 'PWD': '/', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2019-09-26 01:25:15,687: process[visualization-3]: args[[u'/opt/ros/melodic/lib/mavros_extras/visualization', u'local_position:=mavros/local_position/pose', u'local_setpoint:=mavros/setpoint_position/local', u'__name:=visualization']]
+[roslaunch][INFO] 2019-09-26 01:25:15,687: ... created process [visualization-3]
+[roslaunch.pmon][INFO] 2019-09-26 01:25:15,688: ProcessMonitor.register[visualization-3]
+[roslaunch.pmon][INFO] 2019-09-26 01:25:15,688: ProcessMonitor.register[visualization-3] complete
+[roslaunch][INFO] 2019-09-26 01:25:15,688: ... registered process [visualization-3]
+[roslaunch][INFO] 2019-09-26 01:25:15,688: process[visualization-3]: starting os process
+[roslaunch][INFO] 2019-09-26 01:25:15,689: process[visualization-3]: start w/ args [[u'/opt/ros/melodic/lib/mavros_extras/visualization', u'local_position:=mavros/local_position/pose', u'local_setpoint:=mavros/setpoint_position/local', u'__name:=visualization', u'__log:=/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/visualization-3.log']]
+[roslaunch][INFO] 2019-09-26 01:25:15,689: process[visualization-3]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-09-26 01:25:15,704: process[visualization-3]: started with pid [840]
+[roslaunch][INFO] 2019-09-26 01:25:15,704: ... successfully launched [visualization-3]
+[roslaunch][INFO] 2019-09-26 01:25:15,705: ... preparing to launch node of type [web_video_server/web_video_server]
+[roslaunch][INFO] 2019-09-26 01:25:15,705: create_node_process: package[web_video_server] type[web_video_server] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2019-09-26 01:25:15,706: process[web_video_server-4]: env[{u'ROSCONSOLE_FORMAT': u'[${severity}] [${time}]: ${logger}: ${message}', 'ROS_DISTRO': 'melodic', 'LOGNAME': 'pi', 'USER': 'pi', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_HOSTNAME': 'clever-6853.local', 'HOME': '/home/pi', 'CMAKE_PREFIX_PATH': '/home/pi/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/roslaunch-clever-6853-715.log', 'LANG': 'en_GB.UTF-8', 'SHELL': '/bin/bash', 'JOURNAL_STREAM': '8:15024', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/home/pi/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_PYTHON_VERSION': '2', 'INVOCATION_ID': 'ff6142eab05446e78888096f8e5ba36a', 'PYTHONPATH': '/home/pi/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/pi/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/pi/catkin_ws/src:/opt/ros/melodic/share', 'LD_PRELOAD': '/usr/lib/arm-linux-gnueabihf/coreutils/libstdbuf.so', '_STDBUF_O': 'L', 'PWD': '/', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2019-09-26 01:25:15,718: process[web_video_server-4]: args[[u'/opt/ros/melodic/lib/web_video_server/web_video_server', u'__name:=web_video_server']]
+[roslaunch][INFO] 2019-09-26 01:25:15,718: ... created process [web_video_server-4]
+[roslaunch.pmon][INFO] 2019-09-26 01:25:15,719: ProcessMonitor.register[web_video_server-4]
+[roslaunch.pmon][INFO] 2019-09-26 01:25:15,719: ProcessMonitor.register[web_video_server-4] complete
+[roslaunch][INFO] 2019-09-26 01:25:15,719: ... registered process [web_video_server-4]
+[roslaunch][INFO] 2019-09-26 01:25:15,719: process[web_video_server-4]: starting os process
+[roslaunch][INFO] 2019-09-26 01:25:15,720: process[web_video_server-4]: start w/ args [[u'/opt/ros/melodic/lib/web_video_server/web_video_server', u'__name:=web_video_server', u'__log:=/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/web_video_server-4.log']]
+[roslaunch][INFO] 2019-09-26 01:25:15,720: process[web_video_server-4]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-09-26 01:25:15,737: process[web_video_server-4]: started with pid [841]
+[roslaunch][INFO] 2019-09-26 01:25:15,738: ... successfully launched [web_video_server-4]
+[roslaunch][INFO] 2019-09-26 01:25:15,739: ... preparing to launch node of type [nodelet/nodelet]
+[roslaunch][INFO] 2019-09-26 01:25:15,739: create_node_process: package[nodelet] type[nodelet] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2019-09-26 01:25:15,740: process[nodelet_manager-5]: env[{u'ROSCONSOLE_FORMAT': u'[${severity}] [${time}]: ${logger}: ${message}', 'ROS_DISTRO': 'melodic', 'LOGNAME': 'pi', 'USER': 'pi', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_HOSTNAME': 'clever-6853.local', 'HOME': '/home/pi', 'CMAKE_PREFIX_PATH': '/home/pi/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/roslaunch-clever-6853-715.log', 'LANG': 'en_GB.UTF-8', 'SHELL': '/bin/bash', 'JOURNAL_STREAM': '8:15024', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/home/pi/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_PYTHON_VERSION': '2', 'INVOCATION_ID': 'ff6142eab05446e78888096f8e5ba36a', 'PYTHONPATH': '/home/pi/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/pi/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/pi/catkin_ws/src:/opt/ros/melodic/share', 'LD_PRELOAD': '/usr/lib/arm-linux-gnueabihf/coreutils/libstdbuf.so', '_STDBUF_O': 'L', 'PWD': '/', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2019-09-26 01:25:15,761: process[nodelet_manager-5]: args[[u'/opt/ros/melodic/lib/nodelet/nodelet', 'manager', u'__name:=nodelet_manager']]
+[roslaunch][INFO] 2019-09-26 01:25:15,761: ... created process [nodelet_manager-5]
+[roslaunch.pmon][INFO] 2019-09-26 01:25:15,761: ProcessMonitor.register[nodelet_manager-5]
+[roslaunch.pmon][INFO] 2019-09-26 01:25:15,762: ProcessMonitor.register[nodelet_manager-5] complete
+[roslaunch][INFO] 2019-09-26 01:25:15,762: ... registered process [nodelet_manager-5]
+[roslaunch][INFO] 2019-09-26 01:25:15,762: process[nodelet_manager-5]: starting os process
+[roslaunch][INFO] 2019-09-26 01:25:15,763: process[nodelet_manager-5]: start w/ args [[u'/opt/ros/melodic/lib/nodelet/nodelet', 'manager', u'__name:=nodelet_manager', u'__log:=/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/nodelet_manager-5.log']]
+[roslaunch][INFO] 2019-09-26 01:25:15,763: process[nodelet_manager-5]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-09-26 01:25:15,782: process[nodelet_manager-5]: started with pid [842]
+[roslaunch][INFO] 2019-09-26 01:25:15,783: ... successfully launched [nodelet_manager-5]
+[roslaunch][INFO] 2019-09-26 01:25:15,783: ... preparing to launch node of type [tf2_ros/static_transform_publisher]
+[roslaunch][INFO] 2019-09-26 01:25:15,784: create_node_process: package[tf2_ros] type[static_transform_publisher] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2019-09-26 01:25:15,784: process[map_flipped_frame-6]: env[{u'ROSCONSOLE_FORMAT': u'[${severity}] [${time}]: ${logger}: ${message}', 'ROS_DISTRO': 'melodic', 'LOGNAME': 'pi', 'USER': 'pi', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_HOSTNAME': 'clever-6853.local', 'HOME': '/home/pi', 'CMAKE_PREFIX_PATH': '/home/pi/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/roslaunch-clever-6853-715.log', 'LANG': 'en_GB.UTF-8', 'SHELL': '/bin/bash', 'JOURNAL_STREAM': '8:15024', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/home/pi/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_PYTHON_VERSION': '2', 'INVOCATION_ID': 'ff6142eab05446e78888096f8e5ba36a', 'PYTHONPATH': '/home/pi/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/pi/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/pi/catkin_ws/src:/opt/ros/melodic/share', 'LD_PRELOAD': '/usr/lib/arm-linux-gnueabihf/coreutils/libstdbuf.so', '_STDBUF_O': 'L', 'PWD': '/', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2019-09-26 01:25:15,787: process[map_flipped_frame-6]: args[[u'/opt/ros/melodic/lib/tf2_ros/static_transform_publisher', '0', '0', '0', '3.1415926', '3.1415926', '0', 'map', 'map_flipped', u'__name:=map_flipped_frame']]
+[roslaunch][INFO] 2019-09-26 01:25:15,788: ... created process [map_flipped_frame-6]
+[roslaunch.pmon][INFO] 2019-09-26 01:25:15,789: ProcessMonitor.register[map_flipped_frame-6]
+[roslaunch.pmon][INFO] 2019-09-26 01:25:15,789: ProcessMonitor.register[map_flipped_frame-6] complete
+[roslaunch][INFO] 2019-09-26 01:25:15,789: ... registered process [map_flipped_frame-6]
+[roslaunch][INFO] 2019-09-26 01:25:15,789: process[map_flipped_frame-6]: starting os process
+[roslaunch][INFO] 2019-09-26 01:25:15,790: process[map_flipped_frame-6]: start w/ args [[u'/opt/ros/melodic/lib/tf2_ros/static_transform_publisher', '0', '0', '0', '3.1415926', '3.1415926', '0', 'map', 'map_flipped', u'__name:=map_flipped_frame', u'__log:=/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/map_flipped_frame-6.log']]
+[roslaunch][INFO] 2019-09-26 01:25:15,790: process[map_flipped_frame-6]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-09-26 01:25:15,800: process[map_flipped_frame-6]: started with pid [848]
+[roslaunch][INFO] 2019-09-26 01:25:15,801: ... successfully launched [map_flipped_frame-6]
+[roslaunch][INFO] 2019-09-26 01:25:15,802: ... preparing to launch node of type [clever/simple_offboard]
+[roslaunch][INFO] 2019-09-26 01:25:15,802: create_node_process: package[clever] type[simple_offboard] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2019-09-26 01:25:15,803: process[simple_offboard-7]: env[{u'ROSCONSOLE_FORMAT': u'[${severity}] [${time}]: ${logger}: ${message}', 'ROS_DISTRO': 'melodic', 'LOGNAME': 'pi', 'USER': 'pi', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_HOSTNAME': 'clever-6853.local', 'HOME': '/home/pi', 'CMAKE_PREFIX_PATH': '/home/pi/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/roslaunch-clever-6853-715.log', 'LANG': 'en_GB.UTF-8', 'SHELL': '/bin/bash', 'JOURNAL_STREAM': '8:15024', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/home/pi/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_PYTHON_VERSION': '2', 'INVOCATION_ID': 'ff6142eab05446e78888096f8e5ba36a', 'PYTHONPATH': '/home/pi/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/pi/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/pi/catkin_ws/src:/opt/ros/melodic/share', 'LD_PRELOAD': '/usr/lib/arm-linux-gnueabihf/coreutils/libstdbuf.so', '_STDBUF_O': 'L', 'PWD': '/', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2019-09-26 01:25:15,809: process[simple_offboard-7]: args[[u'/home/pi/catkin_ws/devel/lib/clever/simple_offboard', u'__name:=simple_offboard']]
+[roslaunch][INFO] 2019-09-26 01:25:15,810: ... created process [simple_offboard-7]
+[roslaunch.pmon][INFO] 2019-09-26 01:25:15,810: ProcessMonitor.register[simple_offboard-7]
+[roslaunch.pmon][INFO] 2019-09-26 01:25:15,810: ProcessMonitor.register[simple_offboard-7] complete
+[roslaunch][INFO] 2019-09-26 01:25:15,811: ... registered process [simple_offboard-7]
+[roslaunch][INFO] 2019-09-26 01:25:15,811: process[simple_offboard-7]: starting os process
+[roslaunch][INFO] 2019-09-26 01:25:15,811: process[simple_offboard-7]: start w/ args [[u'/home/pi/catkin_ws/devel/lib/clever/simple_offboard', u'__name:=simple_offboard', u'__log:=/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/simple_offboard-7.log']]
+[roslaunch][INFO] 2019-09-26 01:25:15,812: process[simple_offboard-7]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-09-26 01:25:15,853: process[simple_offboard-7]: started with pid [849]
+[roslaunch][INFO] 2019-09-26 01:25:15,854: ... successfully launched [simple_offboard-7]
+[roslaunch][INFO] 2019-09-26 01:25:15,855: ... preparing to launch node of type [tf2_ros/static_transform_publisher]
+[roslaunch][INFO] 2019-09-26 01:25:15,856: create_node_process: package[tf2_ros] type[static_transform_publisher] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2019-09-26 01:25:15,857: process[main_camera_frame-8]: env[{u'ROSCONSOLE_FORMAT': u'[${severity}] [${time}]: ${logger}: ${message}', 'ROS_DISTRO': 'melodic', 'LOGNAME': 'pi', 'USER': 'pi', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_HOSTNAME': 'clever-6853.local', 'HOME': '/home/pi', 'CMAKE_PREFIX_PATH': '/home/pi/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/roslaunch-clever-6853-715.log', 'LANG': 'en_GB.UTF-8', 'SHELL': '/bin/bash', 'JOURNAL_STREAM': '8:15024', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/home/pi/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_PYTHON_VERSION': '2', 'INVOCATION_ID': 'ff6142eab05446e78888096f8e5ba36a', 'PYTHONPATH': '/home/pi/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/pi/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/pi/catkin_ws/src:/opt/ros/melodic/share', 'LD_PRELOAD': '/usr/lib/arm-linux-gnueabihf/coreutils/libstdbuf.so', '_STDBUF_O': 'L', 'PWD': '/', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2019-09-26 01:25:15,860: process[main_camera_frame-8]: args[[u'/opt/ros/melodic/lib/tf2_ros/static_transform_publisher', '0.05', '0', '-0.07', '-1.5707963', '0', '3.1415926', 'base_link', 'main_camera_optical', u'__name:=main_camera_frame']]
+[roslaunch][INFO] 2019-09-26 01:25:15,860: ... created process [main_camera_frame-8]
+[roslaunch.pmon][INFO] 2019-09-26 01:25:15,861: ProcessMonitor.register[main_camera_frame-8]
+[roslaunch.pmon][INFO] 2019-09-26 01:25:15,861: ProcessMonitor.register[main_camera_frame-8] complete
+[roslaunch][INFO] 2019-09-26 01:25:15,861: ... registered process [main_camera_frame-8]
+[roslaunch][INFO] 2019-09-26 01:25:15,866: process[main_camera_frame-8]: starting os process
+[roslaunch][INFO] 2019-09-26 01:25:15,866: process[main_camera_frame-8]: start w/ args [[u'/opt/ros/melodic/lib/tf2_ros/static_transform_publisher', '0.05', '0', '-0.07', '-1.5707963', '0', '3.1415926', 'base_link', 'main_camera_optical', u'__name:=main_camera_frame', u'__log:=/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/main_camera_frame-8.log']]
+[roslaunch][INFO] 2019-09-26 01:25:15,867: process[main_camera_frame-8]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-09-26 01:25:15,882: process[main_camera_frame-8]: started with pid [855]
+[roslaunch][INFO] 2019-09-26 01:25:15,883: ... successfully launched [main_camera_frame-8]
+[roslaunch][INFO] 2019-09-26 01:25:15,883: ... preparing to launch node of type [nodelet/nodelet]
+[roslaunch][INFO] 2019-09-26 01:25:15,884: create_node_process: package[nodelet] type[nodelet] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2019-09-26 01:25:15,885: process[main_camera-9]: env[{u'ROSCONSOLE_FORMAT': u'[${severity}] [${time}]: ${logger}: ${message}', 'ROS_DISTRO': 'melodic', 'LOGNAME': 'pi', 'USER': 'pi', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_HOSTNAME': 'clever-6853.local', 'HOME': '/home/pi', 'CMAKE_PREFIX_PATH': '/home/pi/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/roslaunch-clever-6853-715.log', 'LANG': 'en_GB.UTF-8', 'SHELL': '/bin/bash', 'JOURNAL_STREAM': '8:15024', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/home/pi/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_PYTHON_VERSION': '2', 'INVOCATION_ID': 'ff6142eab05446e78888096f8e5ba36a', 'PYTHONPATH': '/home/pi/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/pi/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/pi/catkin_ws/src:/opt/ros/melodic/share', 'LD_PRELOAD': '/usr/lib/arm-linux-gnueabihf/coreutils/libstdbuf.so', '_STDBUF_O': 'L', 'PWD': '/', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2019-09-26 01:25:15,889: process[main_camera-9]: args[[u'/opt/ros/melodic/lib/nodelet/nodelet', 'load', 'cv_camera/CvCameraNodelet', 'nodelet_manager', u'__name:=main_camera']]
+[roslaunch][INFO] 2019-09-26 01:25:15,890: ... created process [main_camera-9]
+[roslaunch.pmon][INFO] 2019-09-26 01:25:15,890: ProcessMonitor.register[main_camera-9]
+[roslaunch.pmon][INFO] 2019-09-26 01:25:15,891: ProcessMonitor.register[main_camera-9] complete
+[roslaunch][INFO] 2019-09-26 01:25:15,891: ... registered process [main_camera-9]
+[roslaunch][INFO] 2019-09-26 01:25:15,891: process[main_camera-9]: starting os process
+[roslaunch][INFO] 2019-09-26 01:25:15,892: process[main_camera-9]: start w/ args [[u'/opt/ros/melodic/lib/nodelet/nodelet', 'load', 'cv_camera/CvCameraNodelet', 'nodelet_manager', u'__name:=main_camera', u'__log:=/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/main_camera-9.log']]
+[roslaunch][INFO] 2019-09-26 01:25:15,893: process[main_camera-9]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-09-26 01:25:15,909: process[main_camera-9]: started with pid [856]
+[roslaunch][INFO] 2019-09-26 01:25:15,910: ... successfully launched [main_camera-9]
+[roslaunch][INFO] 2019-09-26 01:25:15,911: ... preparing to launch node of type [clever/camera_markers]
+[roslaunch][INFO] 2019-09-26 01:25:15,912: create_node_process: package[clever] type[camera_markers] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2019-09-26 01:25:15,913: process[main_camera/main_camera_markers-10]: env[{u'ROSCONSOLE_FORMAT': u'[${severity}] [${time}]: ${logger}: ${message}', 'ROS_DISTRO': 'melodic', 'LOGNAME': 'pi', 'USER': 'pi', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_HOSTNAME': 'clever-6853.local', 'HOME': '/home/pi', 'CMAKE_PREFIX_PATH': '/home/pi/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/roslaunch-clever-6853-715.log', 'LANG': 'en_GB.UTF-8', 'SHELL': '/bin/bash', 'JOURNAL_STREAM': '8:15024', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/home/pi/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_PYTHON_VERSION': '2', 'INVOCATION_ID': 'ff6142eab05446e78888096f8e5ba36a', 'PYTHONPATH': '/home/pi/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/pi/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/pi/catkin_ws/src:/opt/ros/melodic/share', 'ROS_NAMESPACE': u'/main_camera', 'LD_PRELOAD': '/usr/lib/arm-linux-gnueabihf/coreutils/libstdbuf.so', '_STDBUF_O': 'L', 'PWD': '/', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2019-09-26 01:25:15,920: process[main_camera/main_camera_markers-10]: args[[u'/home/pi/catkin_ws/devel/lib/clever/camera_markers', u'__name:=main_camera_markers']]
+[roslaunch][INFO] 2019-09-26 01:25:15,921: ... created process [main_camera/main_camera_markers-10]
+[roslaunch.pmon][INFO] 2019-09-26 01:25:15,921: ProcessMonitor.register[main_camera/main_camera_markers-10]
+[roslaunch.pmon][INFO] 2019-09-26 01:25:15,922: ProcessMonitor.register[main_camera/main_camera_markers-10] complete
+[roslaunch][INFO] 2019-09-26 01:25:15,922: ... registered process [main_camera/main_camera_markers-10]
+[roslaunch][INFO] 2019-09-26 01:25:15,923: process[main_camera/main_camera_markers-10]: starting os process
+[roslaunch][INFO] 2019-09-26 01:25:15,924: process[main_camera/main_camera_markers-10]: start w/ args [[u'/home/pi/catkin_ws/devel/lib/clever/camera_markers', u'__name:=main_camera_markers', u'__log:=/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/main_camera-main_camera_markers-10.log']]
+[roslaunch][INFO] 2019-09-26 01:25:15,925: process[main_camera/main_camera_markers-10]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-09-26 01:25:15,951: process[main_camera/main_camera_markers-10]: started with pid [857]
+[roslaunch][INFO] 2019-09-26 01:25:15,952: ... successfully launched [main_camera/main_camera_markers-10]
+[roslaunch][INFO] 2019-09-26 01:25:15,953: ... preparing to launch node of type [rosbridge_server/rosbridge_websocket]
+[roslaunch][INFO] 2019-09-26 01:25:15,954: create_node_process: package[rosbridge_server] type[rosbridge_websocket] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2019-09-26 01:25:15,954: process[rosbridge_websocket-11]: env[{u'ROSCONSOLE_FORMAT': u'[${severity}] [${time}]: ${logger}: ${message}', 'ROS_DISTRO': 'melodic', 'LOGNAME': 'pi', 'USER': 'pi', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_HOSTNAME': 'clever-6853.local', 'HOME': '/home/pi', 'CMAKE_PREFIX_PATH': '/home/pi/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/roslaunch-clever-6853-715.log', 'LANG': 'en_GB.UTF-8', 'SHELL': '/bin/bash', 'JOURNAL_STREAM': '8:15024', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/home/pi/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_PYTHON_VERSION': '2', 'INVOCATION_ID': 'ff6142eab05446e78888096f8e5ba36a', 'PYTHONPATH': '/home/pi/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/pi/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/pi/catkin_ws/src:/opt/ros/melodic/share', 'LD_PRELOAD': '/usr/lib/arm-linux-gnueabihf/coreutils/libstdbuf.so', '_STDBUF_O': 'L', 'PWD': '/', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2019-09-26 01:25:15,970: process[rosbridge_websocket-11]: args[[u'/opt/ros/melodic/lib/rosbridge_server/rosbridge_websocket', u'__name:=rosbridge_websocket']]
+[roslaunch][INFO] 2019-09-26 01:25:15,970: ... created process [rosbridge_websocket-11]
+[roslaunch.pmon][INFO] 2019-09-26 01:25:15,971: ProcessMonitor.register[rosbridge_websocket-11]
+[roslaunch.pmon][INFO] 2019-09-26 01:25:15,971: ProcessMonitor.register[rosbridge_websocket-11] complete
+[roslaunch][INFO] 2019-09-26 01:25:15,973: ... registered process [rosbridge_websocket-11]
+[roslaunch][INFO] 2019-09-26 01:25:15,973: process[rosbridge_websocket-11]: starting os process
+[roslaunch][INFO] 2019-09-26 01:25:15,974: process[rosbridge_websocket-11]: start w/ args [[u'/opt/ros/melodic/lib/rosbridge_server/rosbridge_websocket', u'__name:=rosbridge_websocket', u'__log:=/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/rosbridge_websocket-11.log']]
+[roslaunch][INFO] 2019-09-26 01:25:15,974: process[rosbridge_websocket-11]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-09-26 01:25:16,015: process[rosbridge_websocket-11]: started with pid [863]
+[roslaunch][INFO] 2019-09-26 01:25:16,016: ... successfully launched [rosbridge_websocket-11]
+[roslaunch][INFO] 2019-09-26 01:25:16,017: ... preparing to launch node of type [rosapi/rosapi_node]
+[roslaunch][INFO] 2019-09-26 01:25:16,018: create_node_process: package[rosapi] type[rosapi_node] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2019-09-26 01:25:16,019: process[rosapi-12]: env[{u'ROSCONSOLE_FORMAT': u'[${severity}] [${time}]: ${logger}: ${message}', 'ROS_DISTRO': 'melodic', 'LOGNAME': 'pi', 'USER': 'pi', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_HOSTNAME': 'clever-6853.local', 'HOME': '/home/pi', 'CMAKE_PREFIX_PATH': '/home/pi/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/roslaunch-clever-6853-715.log', 'LANG': 'en_GB.UTF-8', 'SHELL': '/bin/bash', 'JOURNAL_STREAM': '8:15024', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/home/pi/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_PYTHON_VERSION': '2', 'INVOCATION_ID': 'ff6142eab05446e78888096f8e5ba36a', 'PYTHONPATH': '/home/pi/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/pi/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/pi/catkin_ws/src:/opt/ros/melodic/share', 'LD_PRELOAD': '/usr/lib/arm-linux-gnueabihf/coreutils/libstdbuf.so', '_STDBUF_O': 'L', 'PWD': '/', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2019-09-26 01:25:16,039: process[rosapi-12]: args[[u'/opt/ros/melodic/lib/rosapi/rosapi_node', u'__name:=rosapi']]
+[roslaunch][INFO] 2019-09-26 01:25:16,039: ... created process [rosapi-12]
+[roslaunch.pmon][INFO] 2019-09-26 01:25:16,040: ProcessMonitor.register[rosapi-12]
+[roslaunch.pmon][INFO] 2019-09-26 01:25:16,040: ProcessMonitor.register[rosapi-12] complete
+[roslaunch][INFO] 2019-09-26 01:25:16,040: ... registered process [rosapi-12]
+[roslaunch][INFO] 2019-09-26 01:25:16,041: process[rosapi-12]: starting os process
+[roslaunch][INFO] 2019-09-26 01:25:16,041: process[rosapi-12]: start w/ args [[u'/opt/ros/melodic/lib/rosapi/rosapi_node', u'__name:=rosapi', u'__log:=/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/rosapi-12.log']]
+[roslaunch][INFO] 2019-09-26 01:25:16,042: process[rosapi-12]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-09-26 01:25:16,061: process[rosapi-12]: started with pid [874]
+[roslaunch][INFO] 2019-09-26 01:25:16,062: ... successfully launched [rosapi-12]
+[roslaunch][INFO] 2019-09-26 01:25:16,063: ... preparing to launch node of type [tf2_web_republisher/tf2_web_republisher]
+[roslaunch][INFO] 2019-09-26 01:25:16,063: create_node_process: package[tf2_web_republisher] type[tf2_web_republisher] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2019-09-26 01:25:16,066: process[tf2_web_republisher-13]: env[{u'ROSCONSOLE_FORMAT': u'[${severity}] [${time}]: ${logger}: ${message}', 'ROS_DISTRO': 'melodic', 'LOGNAME': 'pi', 'USER': 'pi', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_HOSTNAME': 'clever-6853.local', 'HOME': '/home/pi', 'CMAKE_PREFIX_PATH': '/home/pi/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/roslaunch-clever-6853-715.log', 'LANG': 'en_GB.UTF-8', 'SHELL': '/bin/bash', 'JOURNAL_STREAM': '8:15024', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/home/pi/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_PYTHON_VERSION': '2', 'INVOCATION_ID': 'ff6142eab05446e78888096f8e5ba36a', 'PYTHONPATH': '/home/pi/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/pi/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/pi/catkin_ws/src:/opt/ros/melodic/share', 'LD_PRELOAD': '/usr/lib/arm-linux-gnueabihf/coreutils/libstdbuf.so', '_STDBUF_O': 'L', 'PWD': '/', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2019-09-26 01:25:16,086: process[tf2_web_republisher-13]: args[[u'/opt/ros/melodic/lib/tf2_web_republisher/tf2_web_republisher', u'__name:=tf2_web_republisher']]
+[roslaunch][INFO] 2019-09-26 01:25:16,087: ... created process [tf2_web_republisher-13]
+[roslaunch.pmon][INFO] 2019-09-26 01:25:16,088: ProcessMonitor.register[tf2_web_republisher-13]
+[roslaunch.pmon][INFO] 2019-09-26 01:25:16,088: ProcessMonitor.register[tf2_web_republisher-13] complete
+[roslaunch][INFO] 2019-09-26 01:25:16,089: ... registered process [tf2_web_republisher-13]
+[roslaunch][INFO] 2019-09-26 01:25:16,089: process[tf2_web_republisher-13]: starting os process
+[roslaunch][INFO] 2019-09-26 01:25:16,090: process[tf2_web_republisher-13]: start w/ args [[u'/opt/ros/melodic/lib/tf2_web_republisher/tf2_web_republisher', u'__name:=tf2_web_republisher', u'__log:=/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/tf2_web_republisher-13.log']]
+[roslaunch][INFO] 2019-09-26 01:25:16,090: process[tf2_web_republisher-13]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-09-26 01:25:16,111: process[tf2_web_republisher-13]: started with pid [880]
+[roslaunch][INFO] 2019-09-26 01:25:16,112: ... successfully launched [tf2_web_republisher-13]
+[roslaunch][INFO] 2019-09-26 01:25:16,114: ... preparing to launch node of type [clever/rc]
+[roslaunch][INFO] 2019-09-26 01:25:16,114: create_node_process: package[clever] type[rc] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2019-09-26 01:25:16,115: process[rc-14]: env[{u'ROSCONSOLE_FORMAT': u'[${severity}] [${time}]: ${logger}: ${message}', 'ROS_DISTRO': 'melodic', 'LOGNAME': 'pi', 'USER': 'pi', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_HOSTNAME': 'clever-6853.local', 'HOME': '/home/pi', 'CMAKE_PREFIX_PATH': '/home/pi/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/roslaunch-clever-6853-715.log', 'LANG': 'en_GB.UTF-8', 'SHELL': '/bin/bash', 'JOURNAL_STREAM': '8:15024', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/home/pi/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_PYTHON_VERSION': '2', 'INVOCATION_ID': 'ff6142eab05446e78888096f8e5ba36a', 'PYTHONPATH': '/home/pi/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/pi/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/pi/catkin_ws/src:/opt/ros/melodic/share', 'LD_PRELOAD': '/usr/lib/arm-linux-gnueabihf/coreutils/libstdbuf.so', '_STDBUF_O': 'L', 'PWD': '/', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2019-09-26 01:25:16,133: process[rc-14]: args[[u'/home/pi/catkin_ws/devel/lib/clever/rc', u'__name:=rc']]
+[roslaunch][INFO] 2019-09-26 01:25:16,134: ... created process [rc-14]
+[roslaunch.pmon][INFO] 2019-09-26 01:25:16,154: ProcessMonitor.register[rc-14]
+[roslaunch.pmon][INFO] 2019-09-26 01:25:16,155: ProcessMonitor.register[rc-14] complete
+[roslaunch][INFO] 2019-09-26 01:25:16,156: ... registered process [rc-14]
+[roslaunch][INFO] 2019-09-26 01:25:16,156: process[rc-14]: starting os process
+[roslaunch][INFO] 2019-09-26 01:25:16,157: process[rc-14]: start w/ args [[u'/home/pi/catkin_ws/devel/lib/clever/rc', u'__name:=rc', u'__log:=/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/rc-14.log']]
+[roslaunch][INFO] 2019-09-26 01:25:16,157: process[rc-14]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-09-26 01:25:16,179: process[rc-14]: started with pid [881]
+[roslaunch][INFO] 2019-09-26 01:25:16,180: ... successfully launched [rc-14]
+[roslaunch][INFO] 2019-09-26 01:25:16,181: ... launch_nodes complete
+[roslaunch.pmon][INFO] 2019-09-26 01:25:16,182: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon -1245121440)>
+[roslaunch.parent][INFO] 2019-09-26 01:25:16,183: ... roslaunch parent running, waiting for process exit
+[roslaunch][INFO] 2019-09-26 01:25:16,183: spin
+[roslaunch][INFO] 2019-09-26 01:25:17,834: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/mavros-1*.log
+[roslaunch][INFO] 2019-09-26 01:25:18,840: [mavros-1] restarting process
+[roslaunch][INFO] 2019-09-26 01:25:18,841: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-09-26 01:25:18,842: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/mavros-1.log']]
+[roslaunch][INFO] 2019-09-26 01:25:18,843: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-09-26 01:25:18,854: process[mavros-1]: started with pid [946]
+[roslaunch][INFO] 2019-09-26 01:25:20,067: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/mavros-1*.log
+[roslaunch][INFO] 2019-09-26 01:25:21,072: [mavros-1] restarting process
+[roslaunch][INFO] 2019-09-26 01:25:21,073: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-09-26 01:25:21,074: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/mavros-1.log']]
+[roslaunch][INFO] 2019-09-26 01:25:21,074: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-09-26 01:25:21,083: process[mavros-1]: started with pid [1002]
+[roslaunch][INFO] 2019-09-26 01:25:22,839: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/mavros-1*.log
+[roslaunch][INFO] 2019-09-26 01:25:23,895: [mavros-1] restarting process
+[roslaunch][INFO] 2019-09-26 01:25:24,007: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-09-26 01:25:24,089: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/mavros-1.log']]
+[roslaunch][INFO] 2019-09-26 01:25:24,090: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-09-26 01:25:24,099: process[mavros-1]: started with pid [1017]
+[roslaunch][INFO] 2019-09-26 01:25:48,225: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/mavros-1*.log
+[roslaunch][INFO] 2019-09-26 01:25:49,243: [mavros-1] restarting process
+[roslaunch][INFO] 2019-09-26 01:25:49,942: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-09-26 01:25:50,563: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/mavros-1.log']]
+[roslaunch][INFO] 2019-09-26 01:25:50,834: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-09-26 01:25:53,273: process[mavros-1]: started with pid [1033]
+[roslaunch][INFO] 2019-09-26 01:27:31,323: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/mavros-1*.log
+[roslaunch][INFO] 2019-09-26 01:27:32,392: [mavros-1] restarting process
+[roslaunch][INFO] 2019-09-26 01:27:32,438: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-09-26 01:27:32,590: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/mavros-1.log']]
+[roslaunch][INFO] 2019-09-26 01:27:32,694: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-09-26 01:27:32,774: process[mavros-1]: started with pid [1139]
+[roslaunch][INFO] 2019-09-26 01:27:33,477: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/mavros-1*.log
+[roslaunch][INFO] 2019-09-26 01:27:34,485: [mavros-1] restarting process
+[roslaunch][INFO] 2019-09-26 01:27:34,485: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-09-26 01:27:34,487: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/mavros-1.log']]
+[roslaunch][INFO] 2019-09-26 01:27:34,488: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-09-26 01:27:34,507: process[mavros-1]: started with pid [1151]
+[roslaunch][INFO] 2019-09-26 01:27:35,211: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/mavros-1*.log
+[roslaunch][INFO] 2019-09-26 01:27:36,217: [mavros-1] restarting process
+[roslaunch][INFO] 2019-09-26 01:27:36,218: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-09-26 01:27:36,219: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/mavros-1.log']]
+[roslaunch][INFO] 2019-09-26 01:27:36,220: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-09-26 01:27:36,240: process[mavros-1]: started with pid [1163]
+[roslaunch][INFO] 2019-09-26 01:27:37,044: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/mavros-1*.log
+[roslaunch][INFO] 2019-09-26 01:27:38,051: [mavros-1] restarting process
+[roslaunch][INFO] 2019-09-26 01:27:38,052: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-09-26 01:27:38,054: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/mavros-1.log']]
+[roslaunch][INFO] 2019-09-26 01:27:38,054: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-09-26 01:27:38,074: process[mavros-1]: started with pid [1175]
+[roslaunch][INFO] 2019-09-26 01:27:38,878: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/mavros-1*.log
+[roslaunch][INFO] 2019-09-26 01:27:39,885: [mavros-1] restarting process
+[roslaunch][INFO] 2019-09-26 01:27:39,886: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-09-26 01:27:39,887: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/mavros-1.log']]
+[roslaunch][INFO] 2019-09-26 01:27:39,888: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-09-26 01:27:39,907: process[mavros-1]: started with pid [1187]
+[roslaunch][INFO] 2019-09-26 01:27:40,712: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/mavros-1*.log
+[roslaunch][INFO] 2019-09-26 01:27:41,719: [mavros-1] restarting process
+[roslaunch][INFO] 2019-09-26 01:27:41,720: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-09-26 01:27:41,721: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/mavros-1.log']]
+[roslaunch][INFO] 2019-09-26 01:27:41,722: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-09-26 01:27:41,741: process[mavros-1]: started with pid [1199]
+[roslaunch][INFO] 2019-09-26 01:27:42,546: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/mavros-1*.log
+[roslaunch][INFO] 2019-09-26 01:27:43,553: [mavros-1] restarting process
+[roslaunch][INFO] 2019-09-26 01:27:43,554: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-09-26 01:27:43,555: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/mavros-1.log']]
+[roslaunch][INFO] 2019-09-26 01:27:43,557: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-09-26 01:27:43,577: process[mavros-1]: started with pid [1211]
+[roslaunch][INFO] 2019-09-26 01:27:44,181: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/mavros-1*.log
+[roslaunch][INFO] 2019-09-26 01:27:45,187: [mavros-1] restarting process
+[roslaunch][INFO] 2019-09-26 01:27:45,188: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-09-26 01:27:45,189: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/mavros-1.log']]
+[roslaunch][INFO] 2019-09-26 01:27:45,190: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-09-26 01:27:45,209: process[mavros-1]: started with pid [1223]
+[roslaunch][INFO] 2019-09-26 01:27:46,014: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/mavros-1*.log
+[roslaunch][INFO] 2019-09-26 01:27:47,020: [mavros-1] restarting process
+[roslaunch][INFO] 2019-09-26 01:27:47,021: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-09-26 01:27:47,022: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/mavros-1.log']]
+[roslaunch][INFO] 2019-09-26 01:27:47,023: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-09-26 01:27:47,042: process[mavros-1]: started with pid [1235]
+[roslaunch][INFO] 2019-09-26 01:27:47,746: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/1a061a60-dff4-11e9-9f90-dca63240a851/mavros-1*.log
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    

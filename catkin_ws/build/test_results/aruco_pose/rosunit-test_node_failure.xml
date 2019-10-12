@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="pytest" skips="0" tests="1" time="6.333"><testcase classname="" file="../../../src/clever/aruco_pose/test/test_node_failure.py" line="10" name="test_node_failure" time="5.88386297226"></testcase></testsuite>

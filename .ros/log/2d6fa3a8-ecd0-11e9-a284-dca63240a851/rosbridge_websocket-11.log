@@ -1,0 +1,13 @@
+[rospy.client][INFO] 2019-10-12 10:10:55,095: init_node, name[/rosbridge_websocket], pid[680]
+[xmlrpc][INFO] 2019-10-12 10:10:55,097: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-10-12 10:10:55,098: Started XML-RPC server [http://clever-6853.local:38979/]
+[rospy.init][INFO] 2019-10-12 10:10:55,099: ROS Slave URI: [http://clever-6853.local:38979/]
+[rospy.impl.masterslave][INFO] 2019-10-12 10:10:55,100: _ready: http://clever-6853.local:38979/
+[rospy.registration][INFO] 2019-10-12 10:10:55,102: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-10-12 10:10:55,104: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-10-12 10:10:55,201: registered with master
+[rospy.rosout][INFO] 2019-10-12 10:10:55,201: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-10-12 10:10:55,235: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-10-12 10:10:55,251: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2019-10-12 10:10:55,356: Rosbridge WebSocket server started on port 9090
+[rospy.internal][INFO] 2019-10-12 10:10:55,473: topic[/rosout] adding connection to [/rosout], count 0

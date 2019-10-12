@@ -1,0 +1,1152 @@
+[roslaunch][INFO] 2019-10-12 09:49:41,573: roslaunch starting with args ['/opt/ros/melodic/bin/roslaunch', 'clever', 'clever.launch', '--wait', '--screen', '--skip-log-check']
+[roslaunch][INFO] 2019-10-12 09:49:41,573: roslaunch env is {'ROS_DISTRO': 'melodic', 'LOGNAME': 'pi', 'USER': 'pi', 'HOME': '/home/pi', 'ROS_HOSTNAME': 'clever-6853.local', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'CMAKE_PREFIX_PATH': '/home/pi/catkin_ws/devel:/opt/ros/melodic', 'LD_LIBRARY_PATH': '/home/pi/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'LANG': 'en_GB.UTF-8', 'SHELL': '/bin/bash', 'JOURNAL_STREAM': '8:15432', 'SHLVL': '0', 'ROS_LOG_FILENAME': '/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/roslaunch-clever-6853-549.log', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_PYTHON_VERSION': '2', 'INVOCATION_ID': 'a558ad093339437e8f8f9bc5d494edb1', 'PYTHONPATH': '/home/pi/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/pi/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/pi/catkin_ws/src:/opt/ros/melodic/share', 'LD_PRELOAD': '/usr/lib/arm-linux-gnueabihf/coreutils/libstdbuf.so', '_STDBUF_O': 'L', 'PWD': '/', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_VERSION': '1'}
+[roslaunch][INFO] 2019-10-12 09:49:41,573: starting in server mode
+[roslaunch.parent][INFO] 2019-10-12 09:49:41,574: starting roslaunch parent run
+[roslaunch][INFO] 2019-10-12 09:49:41,574: loading roscore config file /opt/ros/melodic/etc/ros/roscore.xml
+[roslaunch][INFO] 2019-10-12 09:49:42,828: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.config][INFO] 2019-10-12 09:49:42,829: loading config file /home/pi/catkin_ws/src/clever/clever/launch/clever.launch
+[roslaunch][INFO] 2019-10-12 09:49:43,147: Added node of type [mavros/mavros_node] in namespace [/]
+[roslaunch][INFO] 2019-10-12 09:49:43,151: Added node of type [tf2_ros/static_transform_publisher] in namespace [/]
+[roslaunch][INFO] 2019-10-12 09:49:43,153: Added node of type [mavros_extras/visualization] in namespace [/]
+[roslaunch][INFO] 2019-10-12 09:49:43,155: Added node of type [web_video_server/web_video_server] in namespace [/]
+[roslaunch][INFO] 2019-10-12 09:49:43,157: Added node of type [nodelet/nodelet] in namespace [/]
+[roslaunch][INFO] 2019-10-12 09:49:43,159: Added node of type [tf2_ros/static_transform_publisher] in namespace [/]
+[roslaunch][INFO] 2019-10-12 09:49:43,161: Added node of type [clever/simple_offboard] in namespace [/]
+[roslaunch][INFO] 2019-10-12 09:49:43,165: Added node of type [tf2_ros/static_transform_publisher] in namespace [/]
+[roslaunch][INFO] 2019-10-12 09:49:43,167: Added node of type [nodelet/nodelet] in namespace [/]
+[roslaunch][INFO] 2019-10-12 09:49:43,168: Added node of type [clever/camera_markers] in namespace [/main_camera/]
+[roslaunch][INFO] 2019-10-12 09:49:43,179: Added node of type [rosbridge_server/rosbridge_websocket] in namespace [/]
+[roslaunch][INFO] 2019-10-12 09:49:43,182: Added node of type [rosapi/rosapi_node] in namespace [/]
+[roslaunch][INFO] 2019-10-12 09:49:43,184: Added node of type [tf2_web_republisher/tf2_web_republisher] in namespace [/]
+[roslaunch][INFO] 2019-10-12 09:49:43,186: Added node of type [clever/rc] in namespace [/]
+[roslaunch][INFO] 2019-10-12 09:49:43,186: ... selected machine [] for node of type [mavros/mavros_node]
+[roslaunch][INFO] 2019-10-12 09:49:43,186: ... selected machine [] for node of type [tf2_ros/static_transform_publisher]
+[roslaunch][INFO] 2019-10-12 09:49:43,186: ... selected machine [] for node of type [mavros_extras/visualization]
+[roslaunch][INFO] 2019-10-12 09:49:43,187: ... selected machine [] for node of type [web_video_server/web_video_server]
+[roslaunch][INFO] 2019-10-12 09:49:43,187: ... selected machine [] for node of type [nodelet/nodelet]
+[roslaunch][INFO] 2019-10-12 09:49:43,187: ... selected machine [] for node of type [tf2_ros/static_transform_publisher]
+[roslaunch][INFO] 2019-10-12 09:49:43,187: ... selected machine [] for node of type [clever/simple_offboard]
+[roslaunch][INFO] 2019-10-12 09:49:43,187: ... selected machine [] for node of type [tf2_ros/static_transform_publisher]
+[roslaunch][INFO] 2019-10-12 09:49:43,188: ... selected machine [] for node of type [nodelet/nodelet]
+[roslaunch][INFO] 2019-10-12 09:49:43,188: ... selected machine [] for node of type [clever/camera_markers]
+[roslaunch][INFO] 2019-10-12 09:49:43,188: ... selected machine [] for node of type [rosbridge_server/rosbridge_websocket]
+[roslaunch][INFO] 2019-10-12 09:49:43,188: ... selected machine [] for node of type [rosapi/rosapi_node]
+[roslaunch][INFO] 2019-10-12 09:49:43,188: ... selected machine [] for node of type [tf2_web_republisher/tf2_web_republisher]
+[roslaunch][INFO] 2019-10-12 09:49:43,189: ... selected machine [] for node of type [clever/rc]
+[roslaunch.pmon][INFO] 2019-10-12 09:49:43,191: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2019-10-12 09:49:43,191: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2019-10-12 09:49:43,192: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2019-10-12 09:49:43,192: starting parent XML-RPC server
+[roslaunch.server][INFO] 2019-10-12 09:49:43,192: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2019-10-12 09:49:43,193: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2019-10-12 09:49:43,193: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-10-12 09:49:43,194: Started XML-RPC server [http://clever-6853.local:39733/]
+[xmlrpc][INFO] 2019-10-12 09:49:43,195: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2019-10-12 09:49:43,206: started roslaunch server http://clever-6853.local:39733/
+[roslaunch.parent][INFO] 2019-10-12 09:49:43,207: ... parent XML-RPC server started
+[roslaunch][INFO] 2019-10-12 09:49:43,211: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2019-10-12 09:49:43,227: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2019-10-12 09:49:43,230: ROS_MASTER_URI=http://localhost:11311
+[roslaunch][INFO] 2019-10-12 09:49:43,235: setting /roslaunch/uris/host_clever_6853_local__39733' to http://clever-6853.local:39733/
+[roslaunch][INFO] 2019-10-12 09:49:43,237: load_parameters starting ...
+[roslaunch][INFO] 2019-10-12 09:49:43,334: ... load_parameters complete
+[roslaunch][INFO] 2019-10-12 09:49:43,334: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2019-10-12 09:49:43,337: ... preparing to launch node of type [mavros/mavros_node]
+[roslaunch][INFO] 2019-10-12 09:49:43,337: create_node_process: package[mavros] type[mavros_node] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2019-10-12 09:49:43,338: process[mavros-1]: env[{u'ROSCONSOLE_FORMAT': u'[${severity}] [${time}]: ${logger}: ${message}', 'ROS_DISTRO': 'melodic', 'LOGNAME': 'pi', 'USER': 'pi', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_HOSTNAME': 'clever-6853.local', 'HOME': '/home/pi', 'CMAKE_PREFIX_PATH': '/home/pi/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/roslaunch-clever-6853-549.log', 'LANG': 'en_GB.UTF-8', 'SHELL': '/bin/bash', 'JOURNAL_STREAM': '8:15432', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/home/pi/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_PYTHON_VERSION': '2', 'INVOCATION_ID': 'a558ad093339437e8f8f9bc5d494edb1', 'PYTHONPATH': '/home/pi/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/pi/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/pi/catkin_ws/src:/opt/ros/melodic/share', 'LD_PRELOAD': '/usr/lib/arm-linux-gnueabihf/coreutils/libstdbuf.so', '_STDBUF_O': 'L', 'PWD': '/', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2019-10-12 09:49:43,514: process[mavros-1]: args[[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros']]
+[roslaunch][INFO] 2019-10-12 09:49:43,515: ... created process [mavros-1]
+[roslaunch.pmon][INFO] 2019-10-12 09:49:43,515: ProcessMonitor.register[mavros-1]
+[roslaunch.pmon][INFO] 2019-10-12 09:49:43,515: ProcessMonitor.register[mavros-1] complete
+[roslaunch][INFO] 2019-10-12 09:49:43,515: ... registered process [mavros-1]
+[roslaunch][INFO] 2019-10-12 09:49:43,516: process[mavros-1]: starting os process
+[roslaunch][INFO] 2019-10-12 09:49:43,516: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:49:43,516: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:49:43,528: process[mavros-1]: started with pid [673]
+[roslaunch][INFO] 2019-10-12 09:49:43,529: ... successfully launched [mavros-1]
+[roslaunch][INFO] 2019-10-12 09:49:43,530: ... preparing to launch node of type [tf2_ros/static_transform_publisher]
+[roslaunch][INFO] 2019-10-12 09:49:43,530: create_node_process: package[tf2_ros] type[static_transform_publisher] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2019-10-12 09:49:43,531: process[rangefinder_frame-2]: env[{u'ROSCONSOLE_FORMAT': u'[${severity}] [${time}]: ${logger}: ${message}', 'ROS_DISTRO': 'melodic', 'LOGNAME': 'pi', 'USER': 'pi', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_HOSTNAME': 'clever-6853.local', 'HOME': '/home/pi', 'CMAKE_PREFIX_PATH': '/home/pi/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/roslaunch-clever-6853-549.log', 'LANG': 'en_GB.UTF-8', 'SHELL': '/bin/bash', 'JOURNAL_STREAM': '8:15432', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/home/pi/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_PYTHON_VERSION': '2', 'INVOCATION_ID': 'a558ad093339437e8f8f9bc5d494edb1', 'PYTHONPATH': '/home/pi/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/pi/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/pi/catkin_ws/src:/opt/ros/melodic/share', 'LD_PRELOAD': '/usr/lib/arm-linux-gnueabihf/coreutils/libstdbuf.so', '_STDBUF_O': 'L', 'PWD': '/', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2019-10-12 09:49:43,533: process[rangefinder_frame-2]: args[[u'/opt/ros/melodic/lib/tf2_ros/static_transform_publisher', '0', '0', '-0.05', '0', '1.5707963268', '0', 'base_link', 'rangefinder', u'__name:=rangefinder_frame']]
+[roslaunch][INFO] 2019-10-12 09:49:43,533: ... created process [rangefinder_frame-2]
+[roslaunch.pmon][INFO] 2019-10-12 09:49:43,534: ProcessMonitor.register[rangefinder_frame-2]
+[roslaunch.pmon][INFO] 2019-10-12 09:49:43,534: ProcessMonitor.register[rangefinder_frame-2] complete
+[roslaunch][INFO] 2019-10-12 09:49:43,534: ... registered process [rangefinder_frame-2]
+[roslaunch][INFO] 2019-10-12 09:49:43,534: process[rangefinder_frame-2]: starting os process
+[roslaunch][INFO] 2019-10-12 09:49:43,535: process[rangefinder_frame-2]: start w/ args [[u'/opt/ros/melodic/lib/tf2_ros/static_transform_publisher', '0', '0', '-0.05', '0', '1.5707963268', '0', 'base_link', 'rangefinder', u'__name:=rangefinder_frame', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/rangefinder_frame-2.log']]
+[roslaunch][INFO] 2019-10-12 09:49:43,535: process[rangefinder_frame-2]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:49:43,547: process[rangefinder_frame-2]: started with pid [674]
+[roslaunch][INFO] 2019-10-12 09:49:43,548: ... successfully launched [rangefinder_frame-2]
+[roslaunch][INFO] 2019-10-12 09:49:43,549: ... preparing to launch node of type [mavros_extras/visualization]
+[roslaunch][INFO] 2019-10-12 09:49:43,549: create_node_process: package[mavros_extras] type[visualization] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2019-10-12 09:49:43,549: process[visualization-3]: env[{u'ROSCONSOLE_FORMAT': u'[${severity}] [${time}]: ${logger}: ${message}', 'ROS_DISTRO': 'melodic', 'LOGNAME': 'pi', 'USER': 'pi', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_HOSTNAME': 'clever-6853.local', 'HOME': '/home/pi', 'CMAKE_PREFIX_PATH': '/home/pi/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/roslaunch-clever-6853-549.log', 'LANG': 'en_GB.UTF-8', 'SHELL': '/bin/bash', 'JOURNAL_STREAM': '8:15432', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/home/pi/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_PYTHON_VERSION': '2', 'INVOCATION_ID': 'a558ad093339437e8f8f9bc5d494edb1', 'PYTHONPATH': '/home/pi/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/pi/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/pi/catkin_ws/src:/opt/ros/melodic/share', 'LD_PRELOAD': '/usr/lib/arm-linux-gnueabihf/coreutils/libstdbuf.so', '_STDBUF_O': 'L', 'PWD': '/', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2019-10-12 09:49:43,552: process[visualization-3]: args[[u'/opt/ros/melodic/lib/mavros_extras/visualization', u'local_position:=mavros/local_position/pose', u'local_setpoint:=mavros/setpoint_position/local', u'__name:=visualization']]
+[roslaunch][INFO] 2019-10-12 09:49:43,553: ... created process [visualization-3]
+[roslaunch.pmon][INFO] 2019-10-12 09:49:43,553: ProcessMonitor.register[visualization-3]
+[roslaunch.pmon][INFO] 2019-10-12 09:49:43,553: ProcessMonitor.register[visualization-3] complete
+[roslaunch][INFO] 2019-10-12 09:49:43,553: ... registered process [visualization-3]
+[roslaunch][INFO] 2019-10-12 09:49:43,553: process[visualization-3]: starting os process
+[roslaunch][INFO] 2019-10-12 09:49:43,554: process[visualization-3]: start w/ args [[u'/opt/ros/melodic/lib/mavros_extras/visualization', u'local_position:=mavros/local_position/pose', u'local_setpoint:=mavros/setpoint_position/local', u'__name:=visualization', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/visualization-3.log']]
+[roslaunch][INFO] 2019-10-12 09:49:43,554: process[visualization-3]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:49:43,569: process[visualization-3]: started with pid [675]
+[roslaunch][INFO] 2019-10-12 09:49:43,570: ... successfully launched [visualization-3]
+[roslaunch][INFO] 2019-10-12 09:49:43,571: ... preparing to launch node of type [web_video_server/web_video_server]
+[roslaunch][INFO] 2019-10-12 09:49:43,571: create_node_process: package[web_video_server] type[web_video_server] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2019-10-12 09:49:43,572: process[web_video_server-4]: env[{u'ROSCONSOLE_FORMAT': u'[${severity}] [${time}]: ${logger}: ${message}', 'ROS_DISTRO': 'melodic', 'LOGNAME': 'pi', 'USER': 'pi', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_HOSTNAME': 'clever-6853.local', 'HOME': '/home/pi', 'CMAKE_PREFIX_PATH': '/home/pi/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/roslaunch-clever-6853-549.log', 'LANG': 'en_GB.UTF-8', 'SHELL': '/bin/bash', 'JOURNAL_STREAM': '8:15432', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/home/pi/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_PYTHON_VERSION': '2', 'INVOCATION_ID': 'a558ad093339437e8f8f9bc5d494edb1', 'PYTHONPATH': '/home/pi/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/pi/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/pi/catkin_ws/src:/opt/ros/melodic/share', 'LD_PRELOAD': '/usr/lib/arm-linux-gnueabihf/coreutils/libstdbuf.so', '_STDBUF_O': 'L', 'PWD': '/', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2019-10-12 09:49:43,574: process[web_video_server-4]: args[[u'/opt/ros/melodic/lib/web_video_server/web_video_server', u'__name:=web_video_server']]
+[roslaunch][INFO] 2019-10-12 09:49:43,574: ... created process [web_video_server-4]
+[roslaunch.pmon][INFO] 2019-10-12 09:49:43,575: ProcessMonitor.register[web_video_server-4]
+[roslaunch.pmon][INFO] 2019-10-12 09:49:43,575: ProcessMonitor.register[web_video_server-4] complete
+[roslaunch][INFO] 2019-10-12 09:49:43,575: ... registered process [web_video_server-4]
+[roslaunch][INFO] 2019-10-12 09:49:43,575: process[web_video_server-4]: starting os process
+[roslaunch][INFO] 2019-10-12 09:49:43,576: process[web_video_server-4]: start w/ args [[u'/opt/ros/melodic/lib/web_video_server/web_video_server', u'__name:=web_video_server', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/web_video_server-4.log']]
+[roslaunch][INFO] 2019-10-12 09:49:43,576: process[web_video_server-4]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:49:43,592: process[web_video_server-4]: started with pid [676]
+[roslaunch][INFO] 2019-10-12 09:49:43,593: ... successfully launched [web_video_server-4]
+[roslaunch][INFO] 2019-10-12 09:49:43,593: ... preparing to launch node of type [nodelet/nodelet]
+[roslaunch][INFO] 2019-10-12 09:49:43,594: create_node_process: package[nodelet] type[nodelet] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2019-10-12 09:49:43,594: process[nodelet_manager-5]: env[{u'ROSCONSOLE_FORMAT': u'[${severity}] [${time}]: ${logger}: ${message}', 'ROS_DISTRO': 'melodic', 'LOGNAME': 'pi', 'USER': 'pi', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_HOSTNAME': 'clever-6853.local', 'HOME': '/home/pi', 'CMAKE_PREFIX_PATH': '/home/pi/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/roslaunch-clever-6853-549.log', 'LANG': 'en_GB.UTF-8', 'SHELL': '/bin/bash', 'JOURNAL_STREAM': '8:15432', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/home/pi/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_PYTHON_VERSION': '2', 'INVOCATION_ID': 'a558ad093339437e8f8f9bc5d494edb1', 'PYTHONPATH': '/home/pi/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/pi/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/pi/catkin_ws/src:/opt/ros/melodic/share', 'LD_PRELOAD': '/usr/lib/arm-linux-gnueabihf/coreutils/libstdbuf.so', '_STDBUF_O': 'L', 'PWD': '/', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2019-10-12 09:49:43,597: process[nodelet_manager-5]: args[[u'/opt/ros/melodic/lib/nodelet/nodelet', 'manager', u'__name:=nodelet_manager']]
+[roslaunch][INFO] 2019-10-12 09:49:43,598: ... created process [nodelet_manager-5]
+[roslaunch.pmon][INFO] 2019-10-12 09:49:43,598: ProcessMonitor.register[nodelet_manager-5]
+[roslaunch.pmon][INFO] 2019-10-12 09:49:43,598: ProcessMonitor.register[nodelet_manager-5] complete
+[roslaunch][INFO] 2019-10-12 09:49:43,598: ... registered process [nodelet_manager-5]
+[roslaunch][INFO] 2019-10-12 09:49:43,599: process[nodelet_manager-5]: starting os process
+[roslaunch][INFO] 2019-10-12 09:49:43,599: process[nodelet_manager-5]: start w/ args [[u'/opt/ros/melodic/lib/nodelet/nodelet', 'manager', u'__name:=nodelet_manager', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/nodelet_manager-5.log']]
+[roslaunch][INFO] 2019-10-12 09:49:43,599: process[nodelet_manager-5]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:49:43,615: process[nodelet_manager-5]: started with pid [677]
+[roslaunch][INFO] 2019-10-12 09:49:43,616: ... successfully launched [nodelet_manager-5]
+[roslaunch][INFO] 2019-10-12 09:49:43,617: ... preparing to launch node of type [tf2_ros/static_transform_publisher]
+[roslaunch][INFO] 2019-10-12 09:49:43,617: create_node_process: package[tf2_ros] type[static_transform_publisher] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2019-10-12 09:49:43,618: process[map_flipped_frame-6]: env[{u'ROSCONSOLE_FORMAT': u'[${severity}] [${time}]: ${logger}: ${message}', 'ROS_DISTRO': 'melodic', 'LOGNAME': 'pi', 'USER': 'pi', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_HOSTNAME': 'clever-6853.local', 'HOME': '/home/pi', 'CMAKE_PREFIX_PATH': '/home/pi/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/roslaunch-clever-6853-549.log', 'LANG': 'en_GB.UTF-8', 'SHELL': '/bin/bash', 'JOURNAL_STREAM': '8:15432', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/home/pi/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_PYTHON_VERSION': '2', 'INVOCATION_ID': 'a558ad093339437e8f8f9bc5d494edb1', 'PYTHONPATH': '/home/pi/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/pi/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/pi/catkin_ws/src:/opt/ros/melodic/share', 'LD_PRELOAD': '/usr/lib/arm-linux-gnueabihf/coreutils/libstdbuf.so', '_STDBUF_O': 'L', 'PWD': '/', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2019-10-12 09:49:43,620: process[map_flipped_frame-6]: args[[u'/opt/ros/melodic/lib/tf2_ros/static_transform_publisher', '0', '0', '0', '3.1415926', '3.1415926', '0', 'map', 'map_flipped', u'__name:=map_flipped_frame']]
+[roslaunch][INFO] 2019-10-12 09:49:43,621: ... created process [map_flipped_frame-6]
+[roslaunch.pmon][INFO] 2019-10-12 09:49:43,621: ProcessMonitor.register[map_flipped_frame-6]
+[roslaunch.pmon][INFO] 2019-10-12 09:49:43,621: ProcessMonitor.register[map_flipped_frame-6] complete
+[roslaunch][INFO] 2019-10-12 09:49:43,622: ... registered process [map_flipped_frame-6]
+[roslaunch][INFO] 2019-10-12 09:49:43,622: process[map_flipped_frame-6]: starting os process
+[roslaunch][INFO] 2019-10-12 09:49:43,622: process[map_flipped_frame-6]: start w/ args [[u'/opt/ros/melodic/lib/tf2_ros/static_transform_publisher', '0', '0', '0', '3.1415926', '3.1415926', '0', 'map', 'map_flipped', u'__name:=map_flipped_frame', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/map_flipped_frame-6.log']]
+[roslaunch][INFO] 2019-10-12 09:49:43,623: process[map_flipped_frame-6]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:49:43,632: process[map_flipped_frame-6]: started with pid [678]
+[roslaunch][INFO] 2019-10-12 09:49:43,633: ... successfully launched [map_flipped_frame-6]
+[roslaunch][INFO] 2019-10-12 09:49:43,634: ... preparing to launch node of type [clever/simple_offboard]
+[roslaunch][INFO] 2019-10-12 09:49:43,634: create_node_process: package[clever] type[simple_offboard] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2019-10-12 09:49:43,635: process[simple_offboard-7]: env[{u'ROSCONSOLE_FORMAT': u'[${severity}] [${time}]: ${logger}: ${message}', 'ROS_DISTRO': 'melodic', 'LOGNAME': 'pi', 'USER': 'pi', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_HOSTNAME': 'clever-6853.local', 'HOME': '/home/pi', 'CMAKE_PREFIX_PATH': '/home/pi/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/roslaunch-clever-6853-549.log', 'LANG': 'en_GB.UTF-8', 'SHELL': '/bin/bash', 'JOURNAL_STREAM': '8:15432', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/home/pi/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_PYTHON_VERSION': '2', 'INVOCATION_ID': 'a558ad093339437e8f8f9bc5d494edb1', 'PYTHONPATH': '/home/pi/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/pi/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/pi/catkin_ws/src:/opt/ros/melodic/share', 'LD_PRELOAD': '/usr/lib/arm-linux-gnueabihf/coreutils/libstdbuf.so', '_STDBUF_O': 'L', 'PWD': '/', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2019-10-12 09:49:43,640: process[simple_offboard-7]: args[[u'/home/pi/catkin_ws/devel/lib/clever/simple_offboard', u'__name:=simple_offboard']]
+[roslaunch][INFO] 2019-10-12 09:49:43,640: ... created process [simple_offboard-7]
+[roslaunch.pmon][INFO] 2019-10-12 09:49:43,641: ProcessMonitor.register[simple_offboard-7]
+[roslaunch.pmon][INFO] 2019-10-12 09:49:43,641: ProcessMonitor.register[simple_offboard-7] complete
+[roslaunch][INFO] 2019-10-12 09:49:43,641: ... registered process [simple_offboard-7]
+[roslaunch][INFO] 2019-10-12 09:49:43,642: process[simple_offboard-7]: starting os process
+[roslaunch][INFO] 2019-10-12 09:49:43,642: process[simple_offboard-7]: start w/ args [[u'/home/pi/catkin_ws/devel/lib/clever/simple_offboard', u'__name:=simple_offboard', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/simple_offboard-7.log']]
+[roslaunch][INFO] 2019-10-12 09:49:43,642: process[simple_offboard-7]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:49:43,666: process[simple_offboard-7]: started with pid [679]
+[roslaunch][INFO] 2019-10-12 09:49:43,666: ... successfully launched [simple_offboard-7]
+[roslaunch][INFO] 2019-10-12 09:49:43,667: ... preparing to launch node of type [tf2_ros/static_transform_publisher]
+[roslaunch][INFO] 2019-10-12 09:49:43,668: create_node_process: package[tf2_ros] type[static_transform_publisher] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2019-10-12 09:49:43,669: process[main_camera_frame-8]: env[{u'ROSCONSOLE_FORMAT': u'[${severity}] [${time}]: ${logger}: ${message}', 'ROS_DISTRO': 'melodic', 'LOGNAME': 'pi', 'USER': 'pi', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_HOSTNAME': 'clever-6853.local', 'HOME': '/home/pi', 'CMAKE_PREFIX_PATH': '/home/pi/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/roslaunch-clever-6853-549.log', 'LANG': 'en_GB.UTF-8', 'SHELL': '/bin/bash', 'JOURNAL_STREAM': '8:15432', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/home/pi/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_PYTHON_VERSION': '2', 'INVOCATION_ID': 'a558ad093339437e8f8f9bc5d494edb1', 'PYTHONPATH': '/home/pi/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/pi/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/pi/catkin_ws/src:/opt/ros/melodic/share', 'LD_PRELOAD': '/usr/lib/arm-linux-gnueabihf/coreutils/libstdbuf.so', '_STDBUF_O': 'L', 'PWD': '/', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2019-10-12 09:49:43,672: process[main_camera_frame-8]: args[[u'/opt/ros/melodic/lib/tf2_ros/static_transform_publisher', '0.05', '0', '-0.07', '-1.5707963', '0', '3.1415926', 'base_link', 'main_camera_optical', u'__name:=main_camera_frame']]
+[roslaunch][INFO] 2019-10-12 09:49:43,673: ... created process [main_camera_frame-8]
+[roslaunch.pmon][INFO] 2019-10-12 09:49:43,673: ProcessMonitor.register[main_camera_frame-8]
+[roslaunch.pmon][INFO] 2019-10-12 09:49:43,673: ProcessMonitor.register[main_camera_frame-8] complete
+[roslaunch][INFO] 2019-10-12 09:49:43,674: ... registered process [main_camera_frame-8]
+[roslaunch][INFO] 2019-10-12 09:49:43,674: process[main_camera_frame-8]: starting os process
+[roslaunch][INFO] 2019-10-12 09:49:43,675: process[main_camera_frame-8]: start w/ args [[u'/opt/ros/melodic/lib/tf2_ros/static_transform_publisher', '0.05', '0', '-0.07', '-1.5707963', '0', '3.1415926', 'base_link', 'main_camera_optical', u'__name:=main_camera_frame', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/main_camera_frame-8.log']]
+[roslaunch][INFO] 2019-10-12 09:49:43,676: process[main_camera_frame-8]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:49:43,693: process[main_camera_frame-8]: started with pid [685]
+[roslaunch][INFO] 2019-10-12 09:49:43,694: ... successfully launched [main_camera_frame-8]
+[roslaunch][INFO] 2019-10-12 09:49:43,695: ... preparing to launch node of type [nodelet/nodelet]
+[roslaunch][INFO] 2019-10-12 09:49:43,695: create_node_process: package[nodelet] type[nodelet] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2019-10-12 09:49:43,696: process[main_camera-9]: env[{u'ROSCONSOLE_FORMAT': u'[${severity}] [${time}]: ${logger}: ${message}', 'ROS_DISTRO': 'melodic', 'LOGNAME': 'pi', 'USER': 'pi', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_HOSTNAME': 'clever-6853.local', 'HOME': '/home/pi', 'CMAKE_PREFIX_PATH': '/home/pi/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/roslaunch-clever-6853-549.log', 'LANG': 'en_GB.UTF-8', 'SHELL': '/bin/bash', 'JOURNAL_STREAM': '8:15432', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/home/pi/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_PYTHON_VERSION': '2', 'INVOCATION_ID': 'a558ad093339437e8f8f9bc5d494edb1', 'PYTHONPATH': '/home/pi/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/pi/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/pi/catkin_ws/src:/opt/ros/melodic/share', 'LD_PRELOAD': '/usr/lib/arm-linux-gnueabihf/coreutils/libstdbuf.so', '_STDBUF_O': 'L', 'PWD': '/', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2019-10-12 09:49:43,701: process[main_camera-9]: args[[u'/opt/ros/melodic/lib/nodelet/nodelet', 'load', 'cv_camera/CvCameraNodelet', 'nodelet_manager', u'__name:=main_camera']]
+[roslaunch][INFO] 2019-10-12 09:49:43,701: ... created process [main_camera-9]
+[roslaunch.pmon][INFO] 2019-10-12 09:49:43,702: ProcessMonitor.register[main_camera-9]
+[roslaunch.pmon][INFO] 2019-10-12 09:49:43,702: ProcessMonitor.register[main_camera-9] complete
+[roslaunch][INFO] 2019-10-12 09:49:43,703: ... registered process [main_camera-9]
+[roslaunch][INFO] 2019-10-12 09:49:43,703: process[main_camera-9]: starting os process
+[roslaunch][INFO] 2019-10-12 09:49:43,704: process[main_camera-9]: start w/ args [[u'/opt/ros/melodic/lib/nodelet/nodelet', 'load', 'cv_camera/CvCameraNodelet', 'nodelet_manager', u'__name:=main_camera', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/main_camera-9.log']]
+[roslaunch][INFO] 2019-10-12 09:49:43,704: process[main_camera-9]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:49:43,716: process[main_camera-9]: started with pid [691]
+[roslaunch][INFO] 2019-10-12 09:49:43,717: ... successfully launched [main_camera-9]
+[roslaunch][INFO] 2019-10-12 09:49:43,717: ... preparing to launch node of type [clever/camera_markers]
+[roslaunch][INFO] 2019-10-12 09:49:43,718: create_node_process: package[clever] type[camera_markers] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2019-10-12 09:49:43,719: process[main_camera/main_camera_markers-10]: env[{u'ROSCONSOLE_FORMAT': u'[${severity}] [${time}]: ${logger}: ${message}', 'ROS_DISTRO': 'melodic', 'LOGNAME': 'pi', 'USER': 'pi', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_HOSTNAME': 'clever-6853.local', 'HOME': '/home/pi', 'CMAKE_PREFIX_PATH': '/home/pi/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/roslaunch-clever-6853-549.log', 'LANG': 'en_GB.UTF-8', 'SHELL': '/bin/bash', 'JOURNAL_STREAM': '8:15432', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/home/pi/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_PYTHON_VERSION': '2', 'INVOCATION_ID': 'a558ad093339437e8f8f9bc5d494edb1', 'PYTHONPATH': '/home/pi/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/pi/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/pi/catkin_ws/src:/opt/ros/melodic/share', 'ROS_NAMESPACE': u'/main_camera', 'LD_PRELOAD': '/usr/lib/arm-linux-gnueabihf/coreutils/libstdbuf.so', '_STDBUF_O': 'L', 'PWD': '/', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2019-10-12 09:49:43,724: process[main_camera/main_camera_markers-10]: args[[u'/home/pi/catkin_ws/devel/lib/clever/camera_markers', u'__name:=main_camera_markers']]
+[roslaunch][INFO] 2019-10-12 09:49:43,725: ... created process [main_camera/main_camera_markers-10]
+[roslaunch.pmon][INFO] 2019-10-12 09:49:43,726: ProcessMonitor.register[main_camera/main_camera_markers-10]
+[roslaunch.pmon][INFO] 2019-10-12 09:49:43,726: ProcessMonitor.register[main_camera/main_camera_markers-10] complete
+[roslaunch][INFO] 2019-10-12 09:49:43,726: ... registered process [main_camera/main_camera_markers-10]
+[roslaunch][INFO] 2019-10-12 09:49:43,727: process[main_camera/main_camera_markers-10]: starting os process
+[roslaunch][INFO] 2019-10-12 09:49:43,727: process[main_camera/main_camera_markers-10]: start w/ args [[u'/home/pi/catkin_ws/devel/lib/clever/camera_markers', u'__name:=main_camera_markers', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/main_camera-main_camera_markers-10.log']]
+[roslaunch][INFO] 2019-10-12 09:49:43,728: process[main_camera/main_camera_markers-10]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:49:43,758: process[main_camera/main_camera_markers-10]: started with pid [692]
+[roslaunch][INFO] 2019-10-12 09:49:43,760: ... successfully launched [main_camera/main_camera_markers-10]
+[roslaunch][INFO] 2019-10-12 09:49:43,760: ... preparing to launch node of type [rosbridge_server/rosbridge_websocket]
+[roslaunch][INFO] 2019-10-12 09:49:43,761: create_node_process: package[rosbridge_server] type[rosbridge_websocket] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2019-10-12 09:49:43,762: process[rosbridge_websocket-11]: env[{u'ROSCONSOLE_FORMAT': u'[${severity}] [${time}]: ${logger}: ${message}', 'ROS_DISTRO': 'melodic', 'LOGNAME': 'pi', 'USER': 'pi', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_HOSTNAME': 'clever-6853.local', 'HOME': '/home/pi', 'CMAKE_PREFIX_PATH': '/home/pi/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/roslaunch-clever-6853-549.log', 'LANG': 'en_GB.UTF-8', 'SHELL': '/bin/bash', 'JOURNAL_STREAM': '8:15432', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/home/pi/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_PYTHON_VERSION': '2', 'INVOCATION_ID': 'a558ad093339437e8f8f9bc5d494edb1', 'PYTHONPATH': '/home/pi/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/pi/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/pi/catkin_ws/src:/opt/ros/melodic/share', 'LD_PRELOAD': '/usr/lib/arm-linux-gnueabihf/coreutils/libstdbuf.so', '_STDBUF_O': 'L', 'PWD': '/', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2019-10-12 09:49:43,765: process[rosbridge_websocket-11]: args[[u'/opt/ros/melodic/lib/rosbridge_server/rosbridge_websocket', u'__name:=rosbridge_websocket']]
+[roslaunch][INFO] 2019-10-12 09:49:43,766: ... created process [rosbridge_websocket-11]
+[roslaunch.pmon][INFO] 2019-10-12 09:49:43,766: ProcessMonitor.register[rosbridge_websocket-11]
+[roslaunch.pmon][INFO] 2019-10-12 09:49:43,767: ProcessMonitor.register[rosbridge_websocket-11] complete
+[roslaunch][INFO] 2019-10-12 09:49:43,767: ... registered process [rosbridge_websocket-11]
+[roslaunch][INFO] 2019-10-12 09:49:43,768: process[rosbridge_websocket-11]: starting os process
+[roslaunch][INFO] 2019-10-12 09:49:43,768: process[rosbridge_websocket-11]: start w/ args [[u'/opt/ros/melodic/lib/rosbridge_server/rosbridge_websocket', u'__name:=rosbridge_websocket', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/rosbridge_websocket-11.log']]
+[roslaunch][INFO] 2019-10-12 09:49:43,769: process[rosbridge_websocket-11]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:49:43,808: process[rosbridge_websocket-11]: started with pid [694]
+[roslaunch][INFO] 2019-10-12 09:49:43,809: ... successfully launched [rosbridge_websocket-11]
+[roslaunch][INFO] 2019-10-12 09:49:43,810: ... preparing to launch node of type [rosapi/rosapi_node]
+[roslaunch][INFO] 2019-10-12 09:49:43,810: create_node_process: package[rosapi] type[rosapi_node] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2019-10-12 09:49:43,811: process[rosapi-12]: env[{u'ROSCONSOLE_FORMAT': u'[${severity}] [${time}]: ${logger}: ${message}', 'ROS_DISTRO': 'melodic', 'LOGNAME': 'pi', 'USER': 'pi', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_HOSTNAME': 'clever-6853.local', 'HOME': '/home/pi', 'CMAKE_PREFIX_PATH': '/home/pi/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/roslaunch-clever-6853-549.log', 'LANG': 'en_GB.UTF-8', 'SHELL': '/bin/bash', 'JOURNAL_STREAM': '8:15432', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/home/pi/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_PYTHON_VERSION': '2', 'INVOCATION_ID': 'a558ad093339437e8f8f9bc5d494edb1', 'PYTHONPATH': '/home/pi/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/pi/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/pi/catkin_ws/src:/opt/ros/melodic/share', 'LD_PRELOAD': '/usr/lib/arm-linux-gnueabihf/coreutils/libstdbuf.so', '_STDBUF_O': 'L', 'PWD': '/', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2019-10-12 09:49:43,816: process[rosapi-12]: args[[u'/opt/ros/melodic/lib/rosapi/rosapi_node', u'__name:=rosapi']]
+[roslaunch][INFO] 2019-10-12 09:49:43,817: ... created process [rosapi-12]
+[roslaunch.pmon][INFO] 2019-10-12 09:49:43,817: ProcessMonitor.register[rosapi-12]
+[roslaunch.pmon][INFO] 2019-10-12 09:49:43,818: ProcessMonitor.register[rosapi-12] complete
+[roslaunch][INFO] 2019-10-12 09:49:43,818: ... registered process [rosapi-12]
+[roslaunch][INFO] 2019-10-12 09:49:43,818: process[rosapi-12]: starting os process
+[roslaunch][INFO] 2019-10-12 09:49:43,819: process[rosapi-12]: start w/ args [[u'/opt/ros/melodic/lib/rosapi/rosapi_node', u'__name:=rosapi', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/rosapi-12.log']]
+[roslaunch][INFO] 2019-10-12 09:49:43,819: process[rosapi-12]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:49:43,834: process[rosapi-12]: started with pid [699]
+[roslaunch][INFO] 2019-10-12 09:49:43,834: ... successfully launched [rosapi-12]
+[roslaunch][INFO] 2019-10-12 09:49:43,835: ... preparing to launch node of type [tf2_web_republisher/tf2_web_republisher]
+[roslaunch][INFO] 2019-10-12 09:49:43,836: create_node_process: package[tf2_web_republisher] type[tf2_web_republisher] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2019-10-12 09:49:43,837: process[tf2_web_republisher-13]: env[{u'ROSCONSOLE_FORMAT': u'[${severity}] [${time}]: ${logger}: ${message}', 'ROS_DISTRO': 'melodic', 'LOGNAME': 'pi', 'USER': 'pi', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_HOSTNAME': 'clever-6853.local', 'HOME': '/home/pi', 'CMAKE_PREFIX_PATH': '/home/pi/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/roslaunch-clever-6853-549.log', 'LANG': 'en_GB.UTF-8', 'SHELL': '/bin/bash', 'JOURNAL_STREAM': '8:15432', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/home/pi/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_PYTHON_VERSION': '2', 'INVOCATION_ID': 'a558ad093339437e8f8f9bc5d494edb1', 'PYTHONPATH': '/home/pi/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/pi/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/pi/catkin_ws/src:/opt/ros/melodic/share', 'LD_PRELOAD': '/usr/lib/arm-linux-gnueabihf/coreutils/libstdbuf.so', '_STDBUF_O': 'L', 'PWD': '/', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2019-10-12 09:49:43,842: process[tf2_web_republisher-13]: args[[u'/opt/ros/melodic/lib/tf2_web_republisher/tf2_web_republisher', u'__name:=tf2_web_republisher']]
+[roslaunch][INFO] 2019-10-12 09:49:43,842: ... created process [tf2_web_republisher-13]
+[roslaunch.pmon][INFO] 2019-10-12 09:49:43,843: ProcessMonitor.register[tf2_web_republisher-13]
+[roslaunch.pmon][INFO] 2019-10-12 09:49:43,843: ProcessMonitor.register[tf2_web_republisher-13] complete
+[roslaunch][INFO] 2019-10-12 09:49:43,844: ... registered process [tf2_web_republisher-13]
+[roslaunch][INFO] 2019-10-12 09:49:43,844: process[tf2_web_republisher-13]: starting os process
+[roslaunch][INFO] 2019-10-12 09:49:43,844: process[tf2_web_republisher-13]: start w/ args [[u'/opt/ros/melodic/lib/tf2_web_republisher/tf2_web_republisher', u'__name:=tf2_web_republisher', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/tf2_web_republisher-13.log']]
+[roslaunch][INFO] 2019-10-12 09:49:43,846: process[tf2_web_republisher-13]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:49:43,891: process[tf2_web_republisher-13]: started with pid [700]
+[roslaunch][INFO] 2019-10-12 09:49:43,892: ... successfully launched [tf2_web_republisher-13]
+[roslaunch][INFO] 2019-10-12 09:49:43,893: ... preparing to launch node of type [clever/rc]
+[roslaunch][INFO] 2019-10-12 09:49:43,894: create_node_process: package[clever] type[rc] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2019-10-12 09:49:43,894: process[rc-14]: env[{u'ROSCONSOLE_FORMAT': u'[${severity}] [${time}]: ${logger}: ${message}', 'ROS_DISTRO': 'melodic', 'LOGNAME': 'pi', 'USER': 'pi', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_HOSTNAME': 'clever-6853.local', 'HOME': '/home/pi', 'CMAKE_PREFIX_PATH': '/home/pi/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/roslaunch-clever-6853-549.log', 'LANG': 'en_GB.UTF-8', 'SHELL': '/bin/bash', 'JOURNAL_STREAM': '8:15432', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/home/pi/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_PYTHON_VERSION': '2', 'INVOCATION_ID': 'a558ad093339437e8f8f9bc5d494edb1', 'PYTHONPATH': '/home/pi/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/pi/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/pi/catkin_ws/src:/opt/ros/melodic/share', 'LD_PRELOAD': '/usr/lib/arm-linux-gnueabihf/coreutils/libstdbuf.so', '_STDBUF_O': 'L', 'PWD': '/', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2019-10-12 09:49:43,930: process[rc-14]: args[[u'/home/pi/catkin_ws/devel/lib/clever/rc', u'__name:=rc']]
+[roslaunch][INFO] 2019-10-12 09:49:43,931: ... created process [rc-14]
+[roslaunch.pmon][INFO] 2019-10-12 09:49:43,931: ProcessMonitor.register[rc-14]
+[roslaunch.pmon][INFO] 2019-10-12 09:49:43,932: ProcessMonitor.register[rc-14] complete
+[roslaunch][INFO] 2019-10-12 09:49:43,932: ... registered process [rc-14]
+[roslaunch][INFO] 2019-10-12 09:49:43,933: process[rc-14]: starting os process
+[roslaunch][INFO] 2019-10-12 09:49:43,933: process[rc-14]: start w/ args [[u'/home/pi/catkin_ws/devel/lib/clever/rc', u'__name:=rc', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/rc-14.log']]
+[roslaunch][INFO] 2019-10-12 09:49:43,934: process[rc-14]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:49:43,958: process[rc-14]: started with pid [708]
+[roslaunch][INFO] 2019-10-12 09:49:43,959: ... successfully launched [rc-14]
+[roslaunch][INFO] 2019-10-12 09:49:43,965: ... launch_nodes complete
+[roslaunch.pmon][INFO] 2019-10-12 09:49:43,966: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon -1245678496)>
+[roslaunch.parent][INFO] 2019-10-12 09:49:43,967: ... roslaunch parent running, waiting for process exit
+[roslaunch][INFO] 2019-10-12 09:49:43,967: spin
+[roslaunch][INFO] 2019-10-12 09:49:45,711: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:49:46,718: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:49:46,719: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:49:46,722: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:49:46,724: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:49:46,754: process[mavros-1]: started with pid [835]
+[roslaunch][INFO] 2019-10-12 09:49:47,759: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:49:48,764: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:49:48,764: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:49:48,765: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:49:48,766: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:49:48,775: process[mavros-1]: started with pid [880]
+[roslaunch][INFO] 2019-10-12 09:49:49,579: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:49:50,584: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:49:50,587: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:49:50,588: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:49:50,589: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:49:50,608: process[mavros-1]: started with pid [906]
+[roslaunch][INFO] 2019-10-12 09:49:51,312: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:49:52,318: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:49:52,319: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:49:52,320: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:49:52,321: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:49:52,341: process[mavros-1]: started with pid [918]
+[roslaunch][INFO] 2019-10-12 09:49:52,945: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:49:53,951: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:49:53,952: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:49:53,964: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:49:53,965: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:49:53,984: process[mavros-1]: started with pid [930]
+[roslaunch][INFO] 2019-10-12 09:49:54,789: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:49:55,795: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:49:55,796: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:49:55,798: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:49:55,798: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:49:55,818: process[mavros-1]: started with pid [942]
+[roslaunch][INFO] 2019-10-12 09:49:56,522: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:49:57,528: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:49:57,529: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:49:57,531: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:49:57,532: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:49:57,552: process[mavros-1]: started with pid [954]
+[roslaunch][INFO] 2019-10-12 09:49:58,256: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:49:59,263: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:49:59,264: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:49:59,270: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:49:59,271: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:49:59,290: process[mavros-1]: started with pid [966]
+[roslaunch][INFO] 2019-10-12 09:49:59,995: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:50:01,001: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:50:01,002: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:50:01,004: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:50:01,004: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:50:01,024: process[mavros-1]: started with pid [978]
+[roslaunch][INFO] 2019-10-12 09:50:01,729: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:50:02,736: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:50:02,737: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:50:02,738: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:50:02,739: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:50:02,758: process[mavros-1]: started with pid [990]
+[roslaunch][INFO] 2019-10-12 09:50:03,563: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:50:04,569: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:50:04,570: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:50:04,574: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:50:04,575: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:50:04,595: process[mavros-1]: started with pid [1002]
+[roslaunch][INFO] 2019-10-12 09:50:05,299: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:50:06,305: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:50:06,306: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:50:06,307: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:50:06,308: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:50:06,327: process[mavros-1]: started with pid [1014]
+[roslaunch][INFO] 2019-10-12 09:50:07,132: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:50:08,140: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:50:08,141: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:50:08,142: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:50:08,143: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:50:08,163: process[mavros-1]: started with pid [1026]
+[roslaunch][INFO] 2019-10-12 09:50:08,967: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:50:09,974: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:50:09,978: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:50:09,980: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:50:09,981: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:50:10,000: process[mavros-1]: started with pid [1038]
+[roslaunch][INFO] 2019-10-12 09:50:10,704: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:50:11,711: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:50:11,712: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:50:11,713: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:50:11,713: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:50:11,733: process[mavros-1]: started with pid [1050]
+[roslaunch][INFO] 2019-10-12 09:54:26,494: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:54:27,500: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:54:27,501: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:54:27,502: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:54:27,503: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:54:27,523: process[mavros-1]: started with pid [1062]
+[roslaunch][INFO] 2019-10-12 09:54:28,126: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:54:29,133: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:54:29,138: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:54:29,140: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:54:29,140: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:54:29,160: process[mavros-1]: started with pid [1074]
+[roslaunch][INFO] 2019-10-12 09:54:29,764: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:54:30,770: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:54:30,771: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:54:30,773: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:54:30,773: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:54:30,793: process[mavros-1]: started with pid [1086]
+[roslaunch][INFO] 2019-10-12 09:54:31,497: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:54:32,503: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:54:32,504: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:54:32,506: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:54:32,507: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:54:32,526: process[mavros-1]: started with pid [1098]
+[roslaunch][INFO] 2019-10-12 09:54:33,230: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:54:34,236: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:54:34,241: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:54:34,243: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:54:34,244: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:54:34,263: process[mavros-1]: started with pid [1110]
+[roslaunch][INFO] 2019-10-12 09:54:35,068: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:54:36,075: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:54:36,076: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:54:36,077: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:54:36,078: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:54:36,097: process[mavros-1]: started with pid [1122]
+[roslaunch][INFO] 2019-10-12 09:54:36,902: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:54:37,909: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:54:37,910: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:54:37,911: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:54:37,912: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:54:37,932: process[mavros-1]: started with pid [1134]
+[roslaunch][INFO] 2019-10-12 09:54:38,737: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:54:39,743: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:54:39,748: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:54:39,750: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:54:39,751: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:54:39,770: process[mavros-1]: started with pid [1146]
+[roslaunch][INFO] 2019-10-12 09:54:40,675: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:54:41,683: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:54:41,683: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:54:41,685: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:54:41,685: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:54:41,705: process[mavros-1]: started with pid [1158]
+[roslaunch][INFO] 2019-10-12 09:54:42,409: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:54:43,416: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:54:43,417: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:54:43,418: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:54:43,419: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:54:43,439: process[mavros-1]: started with pid [1170]
+[roslaunch][INFO] 2019-10-12 09:54:44,043: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:54:45,049: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:54:45,050: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:54:45,052: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:54:45,052: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:54:45,072: process[mavros-1]: started with pid [1182]
+[roslaunch][INFO] 2019-10-12 09:54:45,675: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:54:46,682: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:54:46,683: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:54:46,684: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:54:46,685: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:54:46,705: process[mavros-1]: started with pid [1194]
+[roslaunch][INFO] 2019-10-12 09:54:47,409: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:54:48,415: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:54:48,416: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:54:48,417: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:54:48,418: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:54:48,437: process[mavros-1]: started with pid [1206]
+[roslaunch][INFO] 2019-10-12 09:54:49,041: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:54:50,047: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:54:50,053: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:54:50,054: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:54:50,055: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:54:50,074: process[mavros-1]: started with pid [1218]
+[roslaunch][INFO] 2019-10-12 09:54:50,779: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:54:51,785: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:54:51,786: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:54:51,787: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:54:51,788: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:54:51,808: process[mavros-1]: started with pid [1230]
+[roslaunch][INFO] 2019-10-12 09:54:52,411: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:54:53,418: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:54:53,419: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:54:53,420: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:54:53,421: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:54:53,440: process[mavros-1]: started with pid [1242]
+[roslaunch][INFO] 2019-10-12 09:54:54,245: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:54:55,252: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:54:55,257: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:54:55,258: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:54:55,259: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:54:55,279: process[mavros-1]: started with pid [1254]
+[roslaunch][INFO] 2019-10-12 09:54:55,883: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:54:56,889: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:54:56,890: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:54:56,891: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:54:56,892: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:54:56,912: process[mavros-1]: started with pid [1266]
+[roslaunch][INFO] 2019-10-12 09:54:57,516: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:54:58,522: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:54:58,523: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:54:58,524: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:54:58,525: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:54:58,545: process[mavros-1]: started with pid [1278]
+[roslaunch][INFO] 2019-10-12 09:54:59,350: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:55:00,357: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:55:00,362: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:55:00,364: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:55:00,365: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:55:00,384: process[mavros-1]: started with pid [1290]
+[roslaunch][INFO] 2019-10-12 09:55:01,190: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:55:02,197: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:55:02,198: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:55:02,199: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:55:02,200: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:55:02,219: process[mavros-1]: started with pid [1302]
+[roslaunch][INFO] 2019-10-12 09:55:02,924: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:55:03,930: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:55:03,931: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:55:03,932: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:55:03,933: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:55:03,953: process[mavros-1]: started with pid [1314]
+[roslaunch][INFO] 2019-10-12 09:55:04,657: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:55:05,664: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:55:05,668: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:55:05,670: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:55:05,670: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:55:05,690: process[mavros-1]: started with pid [1326]
+[roslaunch][INFO] 2019-10-12 09:55:06,394: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:55:07,400: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:55:07,401: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:55:07,403: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:55:07,403: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:55:07,423: process[mavros-1]: started with pid [1338]
+[roslaunch][INFO] 2019-10-12 09:55:08,128: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:55:09,134: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:55:09,135: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:55:09,136: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:55:09,137: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:55:09,157: process[mavros-1]: started with pid [1350]
+[roslaunch][INFO] 2019-10-12 09:55:09,861: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:55:10,868: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:55:10,869: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:55:10,873: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:55:10,874: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:55:10,893: process[mavros-1]: started with pid [1362]
+[roslaunch][INFO] 2019-10-12 09:55:11,598: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:55:12,604: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:55:12,605: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:55:12,606: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:55:12,607: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:55:12,627: process[mavros-1]: started with pid [1374]
+[roslaunch][INFO] 2019-10-12 09:55:13,230: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:55:14,237: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:55:14,238: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:55:14,239: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:55:14,240: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:55:14,259: process[mavros-1]: started with pid [1386]
+[roslaunch][INFO] 2019-10-12 09:55:14,964: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:55:15,970: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:55:15,971: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:55:15,980: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:55:15,981: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:55:16,001: process[mavros-1]: started with pid [1398]
+[roslaunch][INFO] 2019-10-12 09:55:16,906: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:55:17,913: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:55:17,914: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:55:17,915: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:55:17,916: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:55:17,935: process[mavros-1]: started with pid [1410]
+[roslaunch][INFO] 2019-10-12 09:55:18,841: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:55:19,849: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:55:19,850: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:55:19,851: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:55:19,852: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:55:19,871: process[mavros-1]: started with pid [1422]
+[roslaunch][INFO] 2019-10-12 09:55:20,777: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:55:21,784: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:55:21,785: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:55:21,790: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:55:21,791: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:55:21,810: process[mavros-1]: started with pid [1434]
+[roslaunch][INFO] 2019-10-12 09:55:22,616: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:55:23,623: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:55:23,624: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:55:23,625: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:55:23,626: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:55:23,645: process[mavros-1]: started with pid [1446]
+[roslaunch][INFO] 2019-10-12 09:55:24,349: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:55:25,356: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:55:25,359: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:55:25,360: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:55:25,360: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:55:25,380: process[mavros-1]: started with pid [1458]
+[roslaunch][INFO] 2019-10-12 09:55:26,084: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:55:27,090: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:55:27,091: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:55:27,095: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:55:27,096: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:55:27,115: process[mavros-1]: started with pid [1470]
+[roslaunch][INFO] 2019-10-12 09:55:27,719: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:55:28,725: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:55:28,726: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:55:28,727: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:55:28,728: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:55:28,747: process[mavros-1]: started with pid [1482]
+[roslaunch][INFO] 2019-10-12 09:55:29,452: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:55:30,459: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:55:30,460: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:55:30,461: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:55:30,462: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:55:30,481: process[mavros-1]: started with pid [1494]
+[roslaunch][INFO] 2019-10-12 09:55:31,186: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:55:32,192: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:55:32,193: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:55:32,198: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:55:32,199: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:55:32,219: process[mavros-1]: started with pid [1506]
+[roslaunch][INFO] 2019-10-12 09:55:32,923: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:55:33,929: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:55:33,930: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:55:33,931: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:55:33,932: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:55:33,951: process[mavros-1]: started with pid [1518]
+[roslaunch][INFO] 2019-10-12 09:55:34,656: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:55:35,662: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:55:35,663: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:55:35,664: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:55:35,665: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:55:35,684: process[mavros-1]: started with pid [1530]
+[roslaunch][INFO] 2019-10-12 09:55:36,388: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:55:37,394: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:55:37,395: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:55:37,396: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:55:37,397: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:55:37,416: process[mavros-1]: started with pid [1542]
+[roslaunch][INFO] 2019-10-12 09:55:38,221: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:55:39,227: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:55:39,228: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:55:39,229: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:55:39,230: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:55:39,249: process[mavros-1]: started with pid [1554]
+[roslaunch][INFO] 2019-10-12 09:55:39,953: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:55:40,959: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:55:40,960: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:55:40,961: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:55:40,961: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:55:40,981: process[mavros-1]: started with pid [1566]
+[roslaunch][INFO] 2019-10-12 09:55:41,785: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:55:42,791: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:55:42,792: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:55:42,819: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:55:42,819: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:55:42,839: process[mavros-1]: started with pid [1578]
+[roslaunch][INFO] 2019-10-12 09:55:43,543: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:55:44,550: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:55:44,551: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:55:44,552: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:55:44,553: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:55:44,572: process[mavros-1]: started with pid [1590]
+[roslaunch][INFO] 2019-10-12 09:55:45,276: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:55:46,282: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:55:46,283: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:55:46,284: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:55:46,285: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:55:46,304: process[mavros-1]: started with pid [1602]
+[roslaunch][INFO] 2019-10-12 09:55:47,008: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:55:48,015: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:55:48,016: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:55:48,019: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:55:48,020: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:55:48,039: process[mavros-1]: started with pid [1614]
+[roslaunch][INFO] 2019-10-12 09:55:48,844: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:55:49,851: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:55:49,852: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:55:49,853: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:55:49,854: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:55:49,873: process[mavros-1]: started with pid [1626]
+[roslaunch][INFO] 2019-10-12 09:55:50,477: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:55:51,483: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:55:51,484: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:55:51,486: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:55:51,486: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:55:51,506: process[mavros-1]: started with pid [1638]
+[roslaunch][INFO] 2019-10-12 09:55:52,310: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:55:53,317: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:55:53,318: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:55:53,324: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:55:53,325: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:55:53,345: process[mavros-1]: started with pid [1650]
+[roslaunch][INFO] 2019-10-12 09:55:54,049: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:55:55,055: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:55:55,056: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:55:55,057: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:55:55,058: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:55:55,077: process[mavros-1]: started with pid [1662]
+[roslaunch][INFO] 2019-10-12 09:55:55,681: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:55:56,688: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:55:56,689: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:55:56,690: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:55:56,691: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:55:56,710: process[mavros-1]: started with pid [1674]
+[roslaunch][INFO] 2019-10-12 09:55:57,415: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:55:58,421: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:55:58,422: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:55:58,426: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:55:58,427: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:55:58,446: process[mavros-1]: started with pid [1686]
+[roslaunch][INFO] 2019-10-12 09:55:59,051: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:56:00,057: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:56:00,060: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:56:00,062: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:56:00,062: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:56:00,081: process[mavros-1]: started with pid [1698]
+[roslaunch][INFO] 2019-10-12 09:56:00,685: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:56:01,692: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:56:01,693: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:56:01,694: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:56:01,695: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:56:01,714: process[mavros-1]: started with pid [1710]
+[roslaunch][INFO] 2019-10-12 09:56:02,318: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:56:03,325: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:56:03,326: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:56:03,327: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:56:03,328: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:56:03,347: process[mavros-1]: started with pid [1722]
+[roslaunch][INFO] 2019-10-12 09:56:04,153: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:56:05,160: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:56:05,160: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:56:05,162: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:56:05,163: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:56:05,183: process[mavros-1]: started with pid [1734]
+[roslaunch][INFO] 2019-10-12 09:56:05,887: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:56:06,893: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:56:06,894: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:56:06,895: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:56:06,896: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:56:06,916: process[mavros-1]: started with pid [1746]
+[roslaunch][INFO] 2019-10-12 09:56:07,620: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:56:08,626: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:56:08,627: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:56:08,633: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:56:08,633: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:56:08,653: process[mavros-1]: started with pid [1758]
+[roslaunch][INFO] 2019-10-12 09:56:09,357: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:56:10,364: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:56:10,365: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:56:10,366: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:56:10,367: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:56:10,386: process[mavros-1]: started with pid [1770]
+[roslaunch][INFO] 2019-10-12 09:56:11,191: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:56:12,198: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:56:12,199: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:56:12,200: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:56:12,201: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:56:12,220: process[mavros-1]: started with pid [1782]
+[roslaunch][INFO] 2019-10-12 09:56:13,025: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:56:14,032: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:56:14,036: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:56:14,038: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:56:14,039: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:56:14,058: process[mavros-1]: started with pid [1794]
+[roslaunch][INFO] 2019-10-12 09:56:14,662: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:56:15,668: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:56:15,669: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:56:15,671: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:56:15,672: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:56:15,691: process[mavros-1]: started with pid [1806]
+[roslaunch][INFO] 2019-10-12 09:56:16,295: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:56:17,302: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:56:17,303: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:56:17,304: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:56:17,305: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:56:17,324: process[mavros-1]: started with pid [1818]
+[roslaunch][INFO] 2019-10-12 09:56:18,029: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:56:19,035: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:56:19,036: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:56:19,045: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:56:19,045: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:56:19,065: process[mavros-1]: started with pid [1830]
+[roslaunch][INFO] 2019-10-12 09:56:19,769: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:56:20,775: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:56:20,776: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:56:20,777: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:56:20,779: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:56:20,798: process[mavros-1]: started with pid [1842]
+[roslaunch][INFO] 2019-10-12 09:56:21,402: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:56:22,408: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:56:22,409: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:56:22,410: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:56:22,411: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:56:22,431: process[mavros-1]: started with pid [1854]
+[roslaunch][INFO] 2019-10-12 09:56:23,034: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:56:24,041: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:56:24,042: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:56:24,046: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:56:24,047: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:56:24,066: process[mavros-1]: started with pid [1866]
+[roslaunch][INFO] 2019-10-12 09:56:24,870: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:56:25,877: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:56:25,878: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:56:25,879: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:56:25,880: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:56:25,899: process[mavros-1]: started with pid [1878]
+[roslaunch][INFO] 2019-10-12 09:56:26,704: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:56:27,711: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:56:27,712: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:56:27,713: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:56:27,714: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:56:27,733: process[mavros-1]: started with pid [1890]
+[roslaunch][INFO] 2019-10-12 09:56:28,538: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:56:29,545: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:56:29,546: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:56:29,550: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:56:29,551: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:56:29,571: process[mavros-1]: started with pid [1902]
+[roslaunch][INFO] 2019-10-12 09:56:30,276: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:56:31,283: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:56:31,284: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:56:31,285: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:56:31,285: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:56:31,305: process[mavros-1]: started with pid [1914]
+[roslaunch][INFO] 2019-10-12 09:56:32,109: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:56:33,116: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:56:33,117: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:56:33,118: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:56:33,119: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:56:33,138: process[mavros-1]: started with pid [1926]
+[roslaunch][INFO] 2019-10-12 09:56:33,742: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:56:34,748: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:56:34,749: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:56:34,782: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:56:34,783: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:56:34,802: process[mavros-1]: started with pid [1938]
+[roslaunch][INFO] 2019-10-12 09:56:35,608: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:56:36,615: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:56:36,618: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:56:36,619: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:56:36,620: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:56:36,639: process[mavros-1]: started with pid [1950]
+[roslaunch][INFO] 2019-10-12 09:56:37,344: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:56:38,350: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:56:38,351: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:56:38,353: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:56:38,354: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:56:38,373: process[mavros-1]: started with pid [1962]
+[roslaunch][INFO] 2019-10-12 09:56:39,078: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:56:40,084: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:56:40,085: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:56:40,086: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:56:40,087: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:56:40,107: process[mavros-1]: started with pid [1974]
+[roslaunch][INFO] 2019-10-12 09:56:40,811: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:56:41,818: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:56:41,819: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:56:41,820: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:56:41,821: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:56:41,841: process[mavros-1]: started with pid [1986]
+[roslaunch][INFO] 2019-10-12 09:56:42,646: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:56:43,652: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:56:43,653: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:56:43,654: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:56:43,655: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:56:43,675: process[mavros-1]: started with pid [1998]
+[roslaunch][INFO] 2019-10-12 09:56:44,479: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:56:45,486: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:56:45,509: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:56:45,511: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:56:45,512: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:56:45,531: process[mavros-1]: started with pid [2010]
+[roslaunch][INFO] 2019-10-12 09:56:46,135: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:56:47,141: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:56:47,142: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:56:47,144: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:56:47,145: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:56:47,164: process[mavros-1]: started with pid [2022]
+[roslaunch][INFO] 2019-10-12 09:56:47,768: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:56:48,774: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:56:48,775: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:56:48,776: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:56:48,777: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:56:48,796: process[mavros-1]: started with pid [2034]
+[roslaunch][INFO] 2019-10-12 09:56:49,601: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:56:50,608: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:56:50,613: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:56:50,614: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:56:50,615: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:56:50,635: process[mavros-1]: started with pid [2046]
+[roslaunch][INFO] 2019-10-12 09:56:51,338: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:56:52,345: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:56:52,346: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:56:52,347: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:56:52,348: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:56:52,368: process[mavros-1]: started with pid [2058]
+[roslaunch][INFO] 2019-10-12 09:56:53,073: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:56:54,079: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:56:54,080: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:56:54,081: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:56:54,082: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:56:54,101: process[mavros-1]: started with pid [2070]
+[roslaunch][INFO] 2019-10-12 09:56:54,805: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:56:55,812: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:56:55,813: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:56:55,817: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:56:55,818: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:56:55,838: process[mavros-1]: started with pid [2082]
+[roslaunch][INFO] 2019-10-12 09:56:56,643: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:56:57,649: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:56:57,650: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:56:57,651: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:56:57,652: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:56:57,671: process[mavros-1]: started with pid [2094]
+[roslaunch][INFO] 2019-10-12 09:56:58,576: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:56:59,584: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:56:59,585: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:56:59,586: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:56:59,587: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:56:59,606: process[mavros-1]: started with pid [2106]
+[roslaunch][INFO] 2019-10-12 09:57:00,310: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:57:01,317: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:57:01,318: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:57:01,319: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:57:01,319: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:57:01,339: process[mavros-1]: started with pid [2118]
+[roslaunch][INFO] 2019-10-12 09:57:01,943: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:57:02,950: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:57:02,950: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:57:02,952: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:57:02,953: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:57:02,972: process[mavros-1]: started with pid [2130]
+[roslaunch][INFO] 2019-10-12 09:57:03,778: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:57:04,784: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:57:04,785: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:57:04,786: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:57:04,787: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:57:04,807: process[mavros-1]: started with pid [2142]
+[roslaunch][INFO] 2019-10-12 09:57:05,511: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:57:06,517: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:57:06,518: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:57:06,523: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:57:06,524: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:57:06,543: process[mavros-1]: started with pid [2154]
+[roslaunch][INFO] 2019-10-12 09:57:07,147: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:57:08,154: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:57:08,155: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:57:08,156: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:57:08,157: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:57:08,176: process[mavros-1]: started with pid [2166]
+[roslaunch][INFO] 2019-10-12 09:57:08,781: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:57:09,787: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:57:09,788: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:57:09,789: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:57:09,790: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:57:09,809: process[mavros-1]: started with pid [2178]
+[roslaunch][INFO] 2019-10-12 09:57:10,614: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:57:11,621: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:57:11,622: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:57:11,626: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:57:11,627: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:57:11,646: process[mavros-1]: started with pid [2190]
+[roslaunch][INFO] 2019-10-12 09:57:12,350: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:57:13,357: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:57:13,358: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:57:13,359: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:57:13,360: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:57:13,380: process[mavros-1]: started with pid [2202]
+[roslaunch][INFO] 2019-10-12 09:57:14,184: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:57:15,191: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:57:15,192: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:57:15,194: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:57:15,194: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:57:15,214: process[mavros-1]: started with pid [2214]
+[roslaunch][INFO] 2019-10-12 09:57:16,019: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:57:17,026: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:57:17,027: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:57:17,032: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:57:17,032: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:57:17,052: process[mavros-1]: started with pid [2226]
+[roslaunch][INFO] 2019-10-12 09:57:17,756: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:57:18,763: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:57:18,764: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:57:18,765: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:57:18,766: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:57:18,785: process[mavros-1]: started with pid [2238]
+[roslaunch][INFO] 2019-10-12 09:57:19,590: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:57:20,596: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:57:20,597: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:57:20,599: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:57:20,599: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:57:20,619: process[mavros-1]: started with pid [2250]
+[roslaunch][INFO] 2019-10-12 09:57:21,323: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:57:22,330: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:57:22,331: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:57:22,335: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:57:22,336: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:57:22,355: process[mavros-1]: started with pid [2262]
+[roslaunch][INFO] 2019-10-12 09:57:23,160: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:57:24,167: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:57:24,168: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:57:24,169: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:57:24,170: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:57:24,189: process[mavros-1]: started with pid [2274]
+[roslaunch][INFO] 2019-10-12 09:57:24,893: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:57:25,900: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:57:25,901: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:57:25,902: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:57:25,903: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:57:25,922: process[mavros-1]: started with pid [2286]
+[roslaunch][INFO] 2019-10-12 09:57:26,627: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:57:27,633: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:57:27,634: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:57:27,641: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:57:27,642: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:57:27,661: process[mavros-1]: started with pid [2298]
+[roslaunch][INFO] 2019-10-12 09:57:28,365: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:57:29,372: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:57:29,373: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:57:29,374: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:57:29,375: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:57:29,395: process[mavros-1]: started with pid [2310]
+[roslaunch][INFO] 2019-10-12 09:57:30,199: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:57:31,207: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:57:31,208: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:57:31,209: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:57:31,210: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:57:31,229: process[mavros-1]: started with pid [2322]
+[roslaunch][INFO] 2019-10-12 09:57:31,933: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:57:32,940: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:57:32,941: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:57:32,979: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:57:32,980: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:57:33,000: process[mavros-1]: started with pid [2334]
+[roslaunch][INFO] 2019-10-12 09:57:33,704: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:57:34,711: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:57:34,712: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:57:34,713: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:57:34,714: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:57:34,733: process[mavros-1]: started with pid [2346]
+[roslaunch][INFO] 2019-10-12 09:57:35,437: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:57:36,444: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:57:36,445: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:57:36,446: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:57:36,447: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:57:36,466: process[mavros-1]: started with pid [2358]
+[roslaunch][INFO] 2019-10-12 09:57:37,271: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:57:38,278: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:57:38,279: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:57:38,282: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:57:38,283: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:57:38,303: process[mavros-1]: started with pid [2370]
+[roslaunch][INFO] 2019-10-12 09:57:38,907: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:57:39,913: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:57:39,914: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:57:39,915: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:57:39,916: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:57:39,935: process[mavros-1]: started with pid [2382]
+[roslaunch][INFO] 2019-10-12 09:57:40,639: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:57:41,646: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:57:41,647: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:57:41,648: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:57:41,649: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:57:41,668: process[mavros-1]: started with pid [2394]
+[roslaunch][INFO] 2019-10-12 09:57:42,372: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:57:43,378: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:57:43,382: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:57:43,384: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:57:43,385: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:57:43,404: process[mavros-1]: started with pid [2406]
+[roslaunch][INFO] 2019-10-12 09:57:44,110: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:57:45,117: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:57:45,120: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:57:45,122: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:57:45,122: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:57:45,142: process[mavros-1]: started with pid [2419]
+[roslaunch][INFO] 2019-10-12 09:57:45,847: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+[roslaunch][INFO] 2019-10-12 09:57:46,854: [mavros-1] restarting process
+[roslaunch][INFO] 2019-10-12 09:57:46,857: process[mavros-1]: restarting os process
+[roslaunch][INFO] 2019-10-12 09:57:46,858: process[mavros-1]: start w/ args [[u'/opt/ros/melodic/lib/mavros/mavros_node', u'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', u'__name:=mavros', u'__log:=/home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1.log']]
+[roslaunch][INFO] 2019-10-12 09:57:46,859: process[mavros-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2019-10-12 09:57:46,878: process[mavros-1]: started with pid [2431]
+[roslaunch][INFO] 2019-10-12 09:57:47,582: [mavros-1] process has finished cleanly
+log file: /home/pi/.ros/log/39b2369c-eccd-11e9-9d74-e84e06650ba1/mavros-1*.log
+                                                                         

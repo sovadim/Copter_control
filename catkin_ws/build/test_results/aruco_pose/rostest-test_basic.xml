@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="0" failures="1" name="unittest.suite.TestSuite" tests="1" time="13.627"><testcase classname="rostest.runner.RosTest" name="testaruco_pose_test" time="13.6266"><failure type="AssertionError">test [aruco_pose_test] did not generate test results
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rostest/runner.py", line 164, in fn
+    self.assert_(os.path.isfile(test_file), "test [%s] did not generate test results"%test_name)
+  File "/usr/lib/python2.7/unittest/case.py", line 422, in assertTrue
+    raise self.failureException(msg)
+</failure></testcase><system-out>&lt;![CDATA[
+[ROSTEST]setup[/home/pi/catkin_ws/src/clever/aruco_pose/test/basic.test] run_id[7db22866-eba6-11e9-b7fd-0242ac110002] starting
+&amp;#x001B;[1mstarted roslaunch server http://127.0.0.1:46185/&amp;#x001B;[0m
+
+SUMMARY
+========
+
+CLEAR PARAMETERS
+ * /aruco_detect/
+ * /aruco_map/
+
+PARAMETERS
+ * /aruco_detect/estimate_poses: True
+ * /aruco_detect/length: 0.33
+ * /aruco_detect/length_override/3: 0.1
+ * /aruco_detect/send_tf: True
+ * /aruco_map/map: /home/pi/catkin_w...
+ * /aruco_map/markers/child_frame_id_prefix: aruco_in_map_
+ * /aruco_map/markers/frame_id: aruco_map
+ * /aruco_map/type: map
+ * /main_camera/camera_info_url: file:///home/pi/c...
+ * /main_camera/frame_id: main_camera_optical
+ * /main_camera/publish_rate: 10
+ * /rosdistro: melodic
+ * /rosversion: 1.14.3
+ * /test_module: /home/pi/catkin_w...
+
+NODES
+  /
+    aruco_detect (nodelet/nodelet)
+    aruco_map (nodelet/nodelet)
+    main_camera (image_publisher/image_publisher)
+    nodelet_manager (nodelet/nodelet)
+
+[ROSTEST]setup[/home/pi/catkin_ws/src/clever/aruco_pose/test/basic.test] run_id[7db22866-eba6-11e9-b7fd-0242ac110002] done
+[ROSTEST]Running test [aruco_pose_test]
+&amp;#x001B;[1mROS_MASTER_URI=http://127.0.0.1:37387/&amp;#x001B;[0m
+&amp;#x001B;[1msetting /run_id to 7db22866-eba6-11e9-b7fd-0242ac110002&amp;#x001B;[0m
+&amp;#x001B;[1mprocess[main_camera-1]: started with pid [15460]&amp;#x001B;[0m
+&amp;#x001B;[1mprocess[nodelet_manager-2]: started with pid [15463]&amp;#x001B;[0m
+&amp;#x001B;[1mprocess[aruco_detect-3]: started with pid [15470]&amp;#x001B;[0m
+&amp;#x001B;[1mprocess[aruco_map-4]: started with pid [15487]&amp;#x001B;[0m
+[ROSTEST]running test aruco_pose_test
+&amp;#x001B;[1mprocess[aruco_pose_test-5]: started with pid [15496]&amp;#x001B;[0m
+[aruco_pose_test-5] killing on exit
+[aruco_map-4] killing on exit
+[aruco_detect-3] killing on exit
+[nodelet_manager-2] killing on exit
+[ROSTEST]test [aruco_pose_test] finished
+[ROSTEST]tearDown[/home/pi/catkin_ws/src/clever/aruco_pose/test/basic.test]
+shutting down processing monitor...
+... shutting down processing monitor complete
+[ROSTEST]rostest teardown /home/pi/catkin_ws/src/clever/aruco_pose/test/basic.test complete
+
+]]&gt;</system-out><system-err>&lt;![CDATA[
+&amp;#x001B;[31m[main_camera-1] process has died [pid 15460, exit code -11, cmd /opt/ros/melodic/lib/image_publisher/image_publisher /home/pi/catkin_ws/src/clever/aruco_pose/test/map.png __name:=main_camera __log:=/root/.ros/log/7db22866-eba6-11e9-b7fd-0242ac110002/main_camera-1.log].
+log file: /root/.ros/log/7db22866-eba6-11e9-b7fd-0242ac110002/main_camera-1*.log&amp;#x001B;[0m
+&amp;#x001B;[31m================================================================================REQUIRED process [nodelet_manager-2] has died!
+process has died [pid 15463, exit code -11, cmd /opt/ros/melodic/lib/nodelet/nodelet manager __name:=nodelet_manager __log:=/root/.ros/log/7db22866-eba6-11e9-b7fd-0242ac110002/nodelet_manager-2.log].
+log file: /root/.ros/log/7db22866-eba6-11e9-b7fd-0242ac110002/nodelet_manager-2*.log
+Initiating shutdown!
+================================================================================&amp;#x001B;[0m
+
+]]&gt;</system-err></testsuite>

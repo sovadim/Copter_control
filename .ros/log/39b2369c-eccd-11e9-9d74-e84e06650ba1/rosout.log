@@ -1,0 +1,345 @@
+
+
+1570870181.742211103  Node Startup
+1570870183.703309806 INFO /map_flipped_frame [/root/ros_catkin_ws/src/geometry2/tf2_ros/src/static_transform_broadcaster_program.cpp:142(main)] [topics: /rosout, /tf_static] Spinning until killed publishing map to map_flipped
+1570870183.678546010 INFO /rangefinder_frame [/root/ros_catkin_ws/src/geometry2/tf2_ros/src/static_transform_broadcaster_program.cpp:142(main)] [topics: /rosout, /tf_static] Spinning until killed publishing base_link to rangefinder
+1570870183.789534658 INFO /main_camera_frame [/root/ros_catkin_ws/src/geometry2/tf2_ros/src/static_transform_broadcaster_program.cpp:142(main)] [topics: /rosout, /tf_static] Spinning until killed publishing base_link to main_camera_optical
+1570870184.261140639 INFO /main_camera [/root/ros_catkin_ws/src/ros_comm/roscpp/src/libros/service.cpp:122(service::waitForService)] [topics: /rosout] waitForService: Service [/nodelet_manager/load_nodelet] is now available.
+1570870184.244528954 INFO /nodelet_manager [/root/ros_catkin_ws/src/nodelet_core/nodelet/src/loader.cpp:233(Loader::Impl::advertiseRosApi)] [topics: ] Initializing nodelet with 2 worker threads.
+1570870185.246313416 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870185.263753638 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870185.264865064 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870185.995908975 INFO /rosapi [rosapi_node:195(<module>)] [topics: /rosout] Rosapi started
+1570870186.937356711 INFO /rc [/home/pi/catkin_ws/src/clever/clever/src/rc.cpp:151(socketThread)] [topics: /rosout, /mavlink/to, /mavros/manual_control/send, /state_latched] UDP RC initialized on port 35602
+1570870187.168085100 INFO /simple_offboard [/home/pi/catkin_ws/src/clever/clever/src/simple_offboard.cpp:824(main)] [topics: /rosout, /tf, /tf_static, /mavros/setpoint_position/local, /mavros/setpoint_raw/local, /mavros/setpoint_attitude/attitude, /mavros/setpoint_raw/attitude, /mavros/setpoint_attitude/cmd_vel, /mavros/setpoint_attitude/thrust] ready
+1570870187.253779888 INFO /rosbridge_websocket [rosbridge_websocket:250(<module>)] [topics: /client_count, /rosout, /connected_clients] Rosbridge WebSocket server started on port 9090
+1570870187.397958230 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870187.403900433 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870187.404786081 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870189.161015895 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870189.166950191 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870189.167640988 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870189.034758117 INFO /web_video_server [/root/ros_catkin_ws/src/web_video_server/src/web_video_server.cpp:103(WebVideoServer::spin)] [topics: /rosout] Waiting For connections on 0.0.0.0:8080
+1570870189.522475728 ERROR /nodelet_manager [/root/ros_catkin_ws/src/cv_camera/src/cv_camera_nodelet.cpp:45(CvCameraNodelet::onInit)] [topics: ] failed to open device... do nothing: device_id0 cannot be opened
+1570870191.007092042 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870191.012478487 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870191.013438301 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870192.725600337 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870192.731411541 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870192.732198449 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870194.408275503 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870196.217294539 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870196.222560947 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870196.223222428 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870197.947219668 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870199.665039037 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870199.670230019 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870199.670820185 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870201.393596666 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870203.167124350 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870203.172090572 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870203.172734146 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870204.984799330 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870204.990136256 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870204.990774978 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870206.702260570 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870206.707944385 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870206.709145274 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870208.583816958 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870210.401442123 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870466.277210857 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870466.282400449 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870466.283323264 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870467.887184504 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870467.892248911 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870467.892933782 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870469.575963818 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870469.581075855 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870469.581849410 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870471.201745891 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870471.207211872 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870471.208246706 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870472.918386186 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870472.923631482 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870472.924310871 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870474.638860018 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870474.644612333 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870474.645737574 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870476.515125684 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870476.520218388 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870476.520849702 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870478.332096442 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870478.337396072 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870478.338009942 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870480.151831774 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870480.157242015 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870480.157881719 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870482.068153588 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870482.076950662 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870482.078124033 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870483.846602661 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870483.851733235 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870483.852379624 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870485.466466234 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870485.472133160 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870485.473251549 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870487.089763752 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870487.095037178 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870487.095798400 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870488.866019306 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870488.871303714 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870488.872142343 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870490.481294231 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870490.486636176 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870490.487441083 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870492.200669786 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870492.206438471 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870492.207339989 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870493.821722692 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870493.827132988 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870493.827893766 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870495.641316728 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870495.646722247 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870495.647770302 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870497.322930227 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870497.328598375 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870497.329803912 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870498.936437615 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870498.941492504 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870498.942107171 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870500.759368521 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870500.764823244 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870500.765773836 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870502.630124835 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870502.635694298 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870502.636533002 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870504.359900278 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870504.365360575 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870504.366176908 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870506.080603111 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870506.086244814 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870506.087199055 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870507.796701813 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870507.801702184 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870507.802442406 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870509.581121461 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870511.300035793 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870513.020007144 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870513.025438755 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870513.026289051 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870514.628774124 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870514.633975995 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870514.634737476 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870516.414881475 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870516.420180864 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870516.420967697 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870518.335486103 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870518.342808233 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870518.343990715 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870520.264507547 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870520.270411565 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870520.271369102 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870522.188847823 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870522.196051935 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870522.196704083 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870524.010009896 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870524.015222989 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870524.016006989 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870525.787239858 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870525.792838136 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870525.793601784 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870527.502465468 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870527.507976709 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870527.508687617 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870529.123800579 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870529.129166449 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870529.129774227 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870530.899545040 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870530.905253781 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870530.905885800 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870532.614483591 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870532.619838242 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870532.620768288 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870534.326118749 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870536.086298133 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870536.091897602 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870536.092769438 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870537.798182068 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870537.803461208 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870537.804199290 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870539.619679758 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870541.382714246 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870541.388303796 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870541.388993932 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870543.211059611 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870543.216125737 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870543.216916549 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870544.985356561 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870544.992036513 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870544.993053097 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870546.713072931 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870548.421502969 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870550.235491677 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870550.240656238 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870550.241352490 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870551.905929057 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870551.911050877 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870551.911772196 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870553.729565060 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870553.734665650 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870553.735341282 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870555.448940142 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870555.454311684 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870555.455014016 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870557.132967929 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870558.849063935 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870558.854760167 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870558.855532316 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870560.467617052 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870560.473182498 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870560.474142082 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870562.079094044 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870562.084253780 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870562.084932410 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870563.765843799 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870565.577892908 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870565.583126641 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870565.583895158 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870567.300176523 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870569.022719162 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870570.790894785 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870570.796073900 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870570.796714341 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870572.617465392 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870572.622621469 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870572.623413341 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870574.440253940 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870574.445380454 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870574.446174051 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870576.056561351 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870576.061524907 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870576.062164883 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870577.737671446 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870579.462166598 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870581.181635402 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870581.186912332 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870581.187574365 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870582.792975864 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870582.798294907 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870582.799231842 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870584.477255256 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870586.297535170 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870588.111628007 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870588.117425021 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870588.118348712 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870589.932800279 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870589.940734167 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870589.941880005 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870591.707989848 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870591.713168153 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870591.713965720 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870593.530529598 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870593.535838228 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870593.536703666 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870595.167166978 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870595.172565450 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870595.173353371 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870597.038376014 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870597.043781010 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870597.044398600 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870598.753763183 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870598.758937480 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870598.759528218 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870600.487153423 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870602.260671321 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870602.265861422 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870602.266620402 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870604.080821733 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870604.085913280 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870604.086612520 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870605.909748420 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870605.915045061 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870605.915755727 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870607.533036390 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870607.538254255 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870607.538991717 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870609.215371148 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870611.027467604 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870612.752363933 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870614.468547268 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870614.473999728 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870614.474855506 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870616.240580728 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870616.246363856 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870616.247375430 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870618.068191666 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870618.073506221 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870618.074204739 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870619.992764870 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870619.998030517 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870619.999012313 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870621.711773266 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870621.716880357 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870621.717631209 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870623.391904671 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870625.221219869 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870626.932007047 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870626.937358899 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870626.938099473 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870628.549105320 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870628.554433468 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870628.555272412 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870630.167947002 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870630.173520947 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870630.174407447 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870632.057761155 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870632.063398822 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870632.064314266 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870633.771588519 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870633.777484889 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870633.778530926 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870635.591144725 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870635.596673966 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870635.597520762 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870637.465798960 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870637.471437923 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870637.472301812 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870639.189612781 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870639.195229503 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870639.196042244 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870641.009510143 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870641.015217958 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870641.016402551 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870642.721600883 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870642.728452068 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870644.601390903 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870644.606840847 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870644.607448292 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870646.329964687 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870646.335774187 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870646.336856816 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870648.046854380 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870648.052649750 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870648.053720121 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870649.767927131 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870649.773502927 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870651.640557049 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870651.645728346 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870651.646325068 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870653.388848951 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870655.099916076 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870656.870038035 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870656.875292757 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870656.876008331 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870658.705665087 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870658.710989661 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870658.711599828 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870660.324785436 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870660.329938677 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870660.330638047 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870662.040322249 INFO /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:69(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU URL: /dev/px4fmu
+1570870662.045545804 INFO /mavros [/root/ros_catkin_ws/src/mavros/libmavconn/src/serial.cpp:51()] [topics: /rosout, /diagnostics, /tf, /tf_static] serial0: device: /dev/px4fmu @ 57600 bps
+1570870662.046158156 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870663.822000969 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870665.547768133 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
+1570870667.264271224 FATAL /mavros [/root/ros_catkin_ws/src/mavros/mavros/src/lib/mavros.cpp:80(MavRos::MavRos)] [topics: /rosout, /diagnostics, /tf, /tf_static] FCU: DeviceError:serial:open: No such file or directory
